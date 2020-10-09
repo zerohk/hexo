@@ -4,52 +4,56 @@
   
     
     <entry>
-      <title>测试模板生成文章</title>
-      <link href="%E6%B5%8B%E8%AF%95%E6%A8%A1%E6%9D%BF%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0/"/>
-      <url>%E6%B5%8B%E8%AF%95%E6%A8%A1%E6%9D%BF%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0/</url>
+      <title>关于github图床搭建问题</title>
+      <link href="%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98/"/>
+      <url>%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>模板测试</title>
-      <link href="%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/"/>
-      <url>%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>按照网上的教程，使用github+PicGo+jsDelivr的方式搭建免费图床，配置如下，</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%981.png"></p><p>一直显示服务端出错，请重试。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%982.png" alt="image-20201008184820098"></p><p>按照网上的教程，改了又改，怎么都不能上传成功。最后去github看，主分支变成了<code>main</code>，而不再是<code>master</code>。于是把配置中的分支改为了<code>main</code></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%983.png"></p><p>测试了一下，上传成功！</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%984.png" alt="image-20201008190221582"></p><p>查了一下原因，原来是BLM的原因，说来实在可笑！</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%985.png"></p><p>这个问题解决了，新的问题随之产生了！发现从picgo自动生成的链接导入typora后，图片加载不出来。直接使用浏览器访问时，出现如下问题：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%986.png"></p><p>上网查了一下，是github的问题，时墙时不墙。没有什么特别好的方法。所以暂时也只能把图片都同步到vercel了。</p><p><strong>已解决！</strong></p><p>还是<code>master</code>的问题。将自定义域名改为<code>https://cdn.jsdelivr.net/gh/zerohk/blogpic@main</code>的形式即可</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%987.png"></p><p>相册区能正确显示，浏览器也能正确显示。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%988.png"></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%989.png"></p><p>但是github还是时好时坏，无法解决。</p>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="test/"/>
-      <url>test/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
       
       
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="hello-world/"/>
-      <url>hello-world/</url>
+      <title>发布文章指南</title>
+      <link href="%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%8C%87%E5%8D%97/"/>
+      <url>%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%8C%87%E5%8D%97/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-创建文章页面"><a href="#1-创建文章页面" class="headerlink" title="1.创建文章页面"></a>1.创建文章页面</h2><p>hexo默认有三种布局：<code>post</code>,<code>draft</code>和<code>page</code>。顾名思义，<code>post</code>代表文章，<code>draft</code>代表草稿，<code>page</code>代表页面。当然也可以使用自定义布局。</p><p>命令:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p><code>layout</code>代表布局，可以是上述三种布局或是自定义布局。<code>title</code>表示名字。</p><h2 id="2-写文章"><a href="#2-写文章" class="headerlink" title="2.写文章"></a>2.写文章</h2><p>执行上述命令后，会在博客<code>source</code>目录下生成相应的文件，用<code>typora</code>打开文件即可编辑。</p><h3 id="文章的几个属性"><a href="#文章的几个属性" class="headerlink" title="文章的几个属性"></a>文章的几个属性</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: 发布文章指南  # 文章标题</span><br><span class="line">date: 2020-10-07 23:18:41 # 文章创建时间，可缺省</span><br><span class="line">tags: [教程,博客] # 标签，可在主页导航栏标签页查看,注意用[]</span><br><span class="line">categories: [教程] # 分类，可在主页导航栏分类页查看</span><br><span class="line">top: 9999 # 是否置顶，值越大优先级越高</span><br><span class="line">comment: false # 是否开启评论</span><br></pre></td></tr></table></figure><h2 id="3-插入图片"><a href="#3-插入图片" class="headerlink" title="3.插入图片"></a>3.插入图片</h2><h3 id="1-本地图片"><a href="#1-本地图片" class="headerlink" title="1.本地图片"></a>1.本地图片</h3><p>可以直接将图片存储于<code>themes\主题名\source\images</code>文件夹下，在typora写文章时，直接导入相对路径<code>/images/文件名</code>即可。</p><p>由于修改了相关配置文件，所以当新生成一篇文章时，会自动生成一个与文章同名的文件夹，可以将图片文件置于此处，但是注意引用时直接引用文件名即可，因为使用<code>hexo g</code>命令后，会自动将图片文件与html置于同一目录。</p><blockquote><p>注意：上述两者引用图片时，在typora编辑器中都不会正确将图片加载出来，使用<code>hexo g</code>命令生成网页文件，使用<code>hexo d</code>命令部署后，可以在网站见到。同时注意文件名，包括后缀名的大小写，不然会显示不出来。</p></blockquote><h3 id="2-使用图床"><a href="#2-使用图床" class="headerlink" title="2.使用图床"></a>2.使用图床</h3><p><del>可以使用自定义图床：<code>https://blog.buercheng.space/uppics.html</code>。</del></p><p><del>仅支持单文件,大小限制2MB。好处是存储在github。</del></p><p>另外再想办法</p><h2 id="4-发布文章"><a href="#4-发布文章" class="headerlink" title="4.发布文章"></a>4.发布文章</h2><p>使用命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean # 清除缓存 清除public目录</span><br><span class="line">hexo g # 生成页面 生成public目录</span><br><span class="line">hexo d # 部署</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
       
     </entry>
     
