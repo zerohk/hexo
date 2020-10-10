@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2020-10-10T13:00:41.155Z</updated>
+  <updated>2020-10-10T13:45:45.177Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -17,14 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>加密文章</title>
+    <link href="https://blog.buercheng.space/posts/2795675475/"/>
+    <id>https://blog.buercheng.space/posts/2795675475/</id>
+    <published>2020-10-10T13:10:33.000Z</published>
+    <updated>2020-10-10T13:45:45.177Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-安装插件&quot;&gt;&lt;a href=&quot;#1-安装插件&quot; class=&quot;headerlink&quot; title=&quot;1.安装插件&quot;&gt;&lt;/a&gt;1.安装插件&lt;/h1&gt;&lt;figure class=&quot;highlight powershell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>testPassword</title>
     <link href="https://blog.buercheng.space/posts/1690112310/"/>
     <id>https://blog.buercheng.space/posts/1690112310/</id>
     <published>2020-10-10T12:58:08.000Z</published>
-    <updated>2020-10-10T13:00:41.155Z</updated>
+    <updated>2020-10-10T13:08:46.284Z</updated>
     
     
-    <summary type="html">这篇文章需要密码才能阅读</summary>
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
     
     
     
