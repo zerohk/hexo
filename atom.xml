@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2020-10-09T16:20:43.000Z</updated>
+  <updated>2020-10-10T13:00:41.155Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>testPassword</title>
+    <link href="https://blog.buercheng.space/posts/1690112310/"/>
+    <id>https://blog.buercheng.space/posts/1690112310/</id>
+    <published>2020-10-10T12:58:08.000Z</published>
+    <updated>2020-10-10T13:00:41.155Z</updated>
+    
+    
+    <summary type="html">这篇文章需要密码才能阅读</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>关于github图床搭建问题</title>
