@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Buercheng&#39;s Space</title>
+  <icon>https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/icon.png</icon>
+  <subtitle>不二承的空间</subtitle>
+  <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
+  
+  <link href="https://blog.buercheng.space/"/>
+  <updated>2020-10-09T16:20:43.000Z</updated>
+  <id>https://blog.buercheng.space/</id>
+  
+  <author>
+    <name>不二承</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于github图床搭建问题</title>
+    <link href="https://blog.buercheng.space/posts/1800832272/"/>
+    <id>https://blog.buercheng.space/posts/1800832272/</id>
+    <published>2020-10-08T10:15:48.000Z</published>
+    <updated>2020-10-09T16:20:43.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;按照网上的教程，使用github+PicGo+jsDelivr的方式搭建免费图床，配置如下，&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
+    
+    <category term="图床" scheme="https://blog.buercheng.space/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>发布文章指南</title>
+    <link href="https://blog.buercheng.space/posts/1820155650/"/>
+    <id>https://blog.buercheng.space/posts/1820155650/</id>
+    <published>2020-10-07T15:18:41.000Z</published>
+    <updated>2020-10-09T16:45:20.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-创建文章页面&quot;&gt;&lt;a href=&quot;#1-创建文章页面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
+    
+    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
+    
+    <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
