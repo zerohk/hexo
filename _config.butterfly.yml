@@ -92,8 +92,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: 
-  effect: false
+  img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/avatar.jpg
+  effect: true
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/index_img.jpg
@@ -154,10 +154,10 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -215,7 +215,7 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
@@ -227,8 +227,8 @@ noticeOutdate:
   style: flat # style: simple/flat
   limit_day: 45 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 这篇文章已经
+  message_next: 天没有更新了，内容可能已经过期了
 
 # Share System (分享功能)
 # --------------------------------------
@@ -313,7 +313,7 @@ valine:
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder: 快来留下你的评论吧，小哥哥，小姐姐~ # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: true # Record reviewer IP
+  recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   emojiCDN: # emoji CDN
@@ -438,7 +438,7 @@ google_site_verification:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-bing_site_verification:
+bing_site_verification: B6CB0AF68E2D49BEE428DF58E8A5B441
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
@@ -563,7 +563,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -628,7 +628,7 @@ aside:
       link: https://github.com/zerohk
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 恋恋不忘，可有回响
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -640,7 +640,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
   card_archives:
     enable: true
     type: monthly # yearly or monthly

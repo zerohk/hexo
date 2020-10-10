@@ -110,16 +110,16 @@ deploy:
 aplayer:
   asset_inject: false
 
-douban:
-  user: 130867945
-  builtin: true
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-  timeout: 10000 
+# douban:
+#   user: 130867945
+#   builtin: false
+#   book:
+#     title: 'This is my book title'
+#     quote: 'This is my book quote'
+#   movie:
+#     title: 'This is my movie title'
+#     quote: 'This is my movie quote'
+#   game:
+#     title: 'This is my game title'
+#     quote: 'This is my game quote'
+#   timeout: 10000 
