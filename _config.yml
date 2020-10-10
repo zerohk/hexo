@@ -15,11 +15,26 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://blog.buercheng.space
 root: /
-permalink: :title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# abbrlink config
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep:        #support dec(default) and hex
+  drafts: true   #(true)Process draft,(false)Do not process draft. false(default) 
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true  #true(default)
+     depth:        #3(default)
+     over_write: false 
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
 
 # Directory
 source_dir: source
@@ -110,16 +125,45 @@ deploy:
 aplayer:
   asset_inject: false
 
-# douban:
-#   user: 130867945
-#   builtin: false
-#   book:
-#     title: 'This is my book title'
-#     quote: 'This is my book quote'
-#   movie:
-#     title: 'This is my movie title'
-#     quote: 'This is my movie quote'
-#   game:
-#     title: 'This is my game title'
-#     quote: 'This is my game quote'
-#   timeout: 10000 
+douban:
+  user: 130867945
+  builtin: false
+  book:
+    title: '阅读清单'
+    quote: 'This is my book quote'
+  movie:
+    title: '那些年看过的电影和电视剧'
+    quote: '电影/电视'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 5000 
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/icon.png
+  autodiscovery: true
+  template:
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+sitemap:
+  path: sitemap.xml
+  template: 
+  rel: false
+  tags: true
+  categories: true
+
+baidusitemap:
+path: baidusitemap.xml

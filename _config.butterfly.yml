@@ -14,6 +14,7 @@ menu:
    列表||fas fa-list:
      - 音乐 || /music/ || fas fa-music
      - 影视 || /movies/ || fas fa-video
+     - 阅读 || /books/ || fas fa-book-open
   # Link: /link/ || fas fa-link
    碎碎念: /shuoshuo || fas fa-comment-alt
    关于: /about/ || fas fa-heart
@@ -44,6 +45,7 @@ copy:
 social:
    fab fa-github: https://github.com/zerohk || Github
    fas fa-envelope: whoisszc@vip.qq.com || Email
+   fas fa-rss: /atom.xml || Rss
 
 # search (搜索)
 # --------------------------------------
@@ -88,12 +90,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/icon.png
 
 # Avatar (頭像)
 avatar:
   img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/avatar.jpg
-  effect: true
+  effect: false
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/index_img.jpg
@@ -123,11 +125,11 @@ category_img:
 category_per_img:
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
-# douban:
-#   meta: false
-#   movies_img:
-#   books_img:
-#   games_img:
+douban:
+  meta: true
+  movies_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/20201010100144.jpg
+  books_img:
+  games_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -143,7 +145,7 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
+  flink: /img/404.gif
   post_page: /img/404.jpg
 
 # A simple 404 page
@@ -418,10 +420,10 @@ cnzz_analytics: 1279334240
 # Google Adsense (谷歌廣告)
 google_adsense:
   enable: false
-  auto_ads: true
+  auto_ads: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # Insert ads manually (手動插入廣告)
 # ad:
@@ -438,7 +440,7 @@ google_site_verification:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-bing_site_verification: B6CB0AF68E2D49BEE428DF58E8A5B441
+bing_site_verification: 
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
@@ -549,17 +551,27 @@ click_heart:
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+     - 富强
+     - 民主
+     - 文明
+     - 和谐
+     - 自由
+     - 平等
+     - 公正
+     - 法治
+     - 爱国
+     - 敬业
+     - 诚信
+     - 友善
+     
   fontSize: 15px
-  mobile: false
+  mobile: true
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -618,7 +630,7 @@ preloader: true
 aside:
   enable: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   card_author:
     enable: true
     description:
@@ -786,7 +798,7 @@ snackbar:
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)
-baidu_push: false
+baidu_push: true
 
 # https://instant.page/
 # prefetch (預加載)
@@ -935,3 +947,5 @@ deploy:
   type: git
   repo: https://github.com/zerohk/hexo.git
   branch: master
+
+  

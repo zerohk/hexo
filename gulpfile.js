@@ -4,38 +4,38 @@ var htmlmin = require('gulp-htmlmin')
 var htmlclean = require('gulp-htmlclean')
 var imagemin = require('gulp-imagemin')
 // tester (如果使用tester,把下面4行前面的//去掉)
-// var uglifyjs = require('terser')
-// var composer = require('gulp-uglify/composer')
-// var pump = require('pump')
-// var minify = composer(uglifyjs, console)
+var uglifyjs = require('terser')
+var composer = require('gulp-uglify/composer')
+var pump = require('pump')
+var minify = composer(uglifyjs, console)
 
 // babel (如果不是使用bebel,把下面兩行註釋掉)
-var uglify = require('gulp-uglify')
-var babel = require('gulp-babel')
+// var uglify = require('gulp-uglify')
+// var babel = require('gulp-babel')
 
 // minify js - babel（ 如果不是使用bebel,把下面註釋掉）
-gulp.task('compress', () =>
-  gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
-    .pipe(babel({
-      presets: ['@babel/preset-env']
-    }))
-    .pipe(uglify().on('error', function (e) {
-      console.log(e)
-    }))
-    .pipe(gulp.dest('./public'))
-)
+// gulp.task('compress', () =>
+//   gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
+//     .pipe(babel({
+//       presets: ['@babel/preset-env']
+//     }))
+//     .pipe(uglify().on('error', function (e) {
+//       console.log(e)
+//     }))
+//     .pipe(gulp.dest('./public'))
+// )
 
 // minify js - tester (如果使用tester,把下面前面的//去掉)
-// gulp.task('compress', function (cb) {
-//   var options = {}
-//   pump([
-//     gulp.src(['./public/**/*.js', '!./public/**/*.min.js']),
-//     minify(options),
-//     gulp.dest('./public')
-//   ],
-//   cb
-//   )
-// })
+gulp.task('compress', function (cb) {
+  var options = {}
+  pump([
+    gulp.src(['./public/**/*.js', '!./public/**/*.min.js']),
+    minify(options),
+    gulp.dest('./public')
+  ],
+  cb
+  )
+})
 
 // css
 gulp.task('minify-css', () => {
@@ -78,10 +78,3 @@ gulp.task('minify-images', async () => {
 gulp.task('default', gulp.parallel(
   'compress', 'minify-css', 'minify-html', 'minify-images'
 ))
-
-
-
-作者: Jerry
-連結: https://demo.jerryc.me/posts/4073eda/#%E5%89%B5%E5%BB%BA-gulpfile-%E6%96%87%E4%BB%B6
-來源: Butterfly
-著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。

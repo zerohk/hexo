@@ -1,15 +1,24 @@
 ---
 title: 关于github图床搭建问题
+sticky: 1
+tags:
+  - github
+  - 图床
+categories: 教程
+keywords:
+  - github
+  - 图床
+  - picgo
+  - jsdelivr
+top_img: >-
+  https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98cover.jpg
+cover: >-
+  https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98top.jpeg
+abbrlink: 1800832272
 date: 2020-10-08 18:15:48
 updated: 2020-10-10 00:20:43
-sticky: 1
-tags: [github,图床]
-categories: 教程
-keywords: [github,图床,picgo,jsdelivr]
 description:
-top_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98cover.jpg
 comments:
-cover: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98top.jpeg
 toc:
 toc_number:
 auto_open:
