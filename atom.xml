@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2020-10-12T02:18:14.566Z</updated>
+  <updated>2020-10-12T10:01:28.897Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -17,11 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>数据库设计</title>
+    <link href="https://blog.buercheng.space/posts/2215875518/"/>
+    <id>https://blog.buercheng.space/posts/2215875518/</id>
+    <published>2020-10-12T09:41:48.000Z</published>
+    <updated>2020-10-12T10:01:28.897Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据库设计&quot;&gt;&lt;a href=&quot;#数据库设计&quot; class=&quot;headerlink&quot; title=&quot;数据库设计&quot;&gt;&lt;/a&gt;数据库设计&lt;/h1&gt;&lt;p&gt;1.多表之间的关系&lt;/p&gt;
+&lt;p&gt;2.数据库设计的范式&lt;/p&gt;
+&lt;h1 id=&quot;多表之间的关系&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    
+    <category term="数据库" scheme="https://blog.buercheng.space/categories/java/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="笔记" scheme="https://blog.buercheng.space/categories/java/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
+    
+    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL基础知识</title>
     <link href="https://blog.buercheng.space/posts/2640443603/"/>
     <id>https://blog.buercheng.space/posts/2640443603/</id>
     <published>2020-10-11T17:12:25.000Z</published>
-    <updated>2020-10-12T02:18:14.566Z</updated>
+    <updated>2020-10-12T09:42:59.965Z</updated>
     
     
       
@@ -38,12 +75,16 @@
     
     <category term="数据库" scheme="https://blog.buercheng.space/categories/java/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
+    <category term="笔记" scheme="https://blog.buercheng.space/categories/java/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%AC%94%E8%AE%B0/"/>
+    
     
     <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
     
     <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
     
     <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -90,9 +131,9 @@
     <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
-    
     <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
+    
+    <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
     
     <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
     
