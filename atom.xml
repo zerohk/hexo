@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2020-10-12T10:01:28.897Z</updated>
+  <updated>2020-10-13T11:38:49.815Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vercel部署hexo</title>
+    <link href="https://blog.buercheng.space/posts/776259585/"/>
+    <id>https://blog.buercheng.space/posts/776259585/</id>
+    <published>2020-10-13T09:58:03.000Z</published>
+    <updated>2020-10-13T11:38:49.815Z</updated>
+    
+    
+    <summary type="html">利用github和vercel搭建部署hexo博客</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
+    
+    <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
+    
+    <category term="vercel" scheme="https://blog.buercheng.space/tags/vercel/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库设计</title>
@@ -131,11 +156,11 @@
     <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
-    
     <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
     
     <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
     
   </entry>
   
