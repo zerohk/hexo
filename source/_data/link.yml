@@ -3,15 +3,15 @@
   link_list:
     - name: 不二承
       link: https://blog.buercheng.space
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/20201010073411.jpeg
+      avatar: /pics/avatar.jpg
       descr: vercel搭建的博客
     - name: 不二承
       link: https://netlify.buercheng.space
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/20201010073411.jpeg
+      avatar: /pics/avatar.jpg
       descr: netlify搭建的博客
     - name: 不二承的Notion
       link: https://notion.buercheng.space
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/notion_avatar.jpg
+      avatar: /pics/Notion_avatar.webp
       descr: Notion-All in one
     - name: JerryC-主题源站
       link: https://jerryc.me/
@@ -26,13 +26,13 @@
       descr: Hexo
     - name: Vercel
       link: https://Vercel.com/
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/vercel_avatar.jpeg
+      avatar: /pics/Vercel_avatar.webp
       descr: 静态博客托管
     - name: Netlify
       link: https://www.Netlify.com/
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/netlify_avatar.jpg
+      avatar: /pics/Netlify_avatar.gif
       descr: 静态博客托管
     - name: LeanCloud
       link: https://leancloud.cn/
-      avatar: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/Leancloud_avatar.png
+      avatar: /pics/Leancloud_avatar.png
       descr: Valine评论后端托管
