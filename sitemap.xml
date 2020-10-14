@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.buercheng.space/posts/3150929911/</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.buercheng.space/archives/index.html</loc>
     
     <lastmod>2020-10-14</lastmod>
@@ -210,6 +217,13 @@
   
   <url>
     <loc>https://blog.buercheng.space/categories/java/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/categories/java/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
