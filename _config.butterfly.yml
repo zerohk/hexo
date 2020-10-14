@@ -124,15 +124,15 @@ category_img:
 # format: 
 #  - category name: xxxxx
 category_per_img:
-  - java: https://cdn.jsdelivr.net/gh/bu2cheng/picpic/category_java_default_.jpg
-  - 数据库: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/category_database_default.jpg
-  - 笔记: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/category_notebook_default.jpg
+  - category java: https://cdn.jsdelivr.net/gh/bu2cheng/picpic/category_java_default_.jpg
+  - category 数据库: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/category_database_default.jpg
+  - category 笔记: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/category_notebook_default.jpg
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 douban:
   meta: true
   movies_img: /pics/movies_img.jpg
-  books_img: /pics/books_img.jpg
+  books_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/books_img.jpg
   games_img:
 
 cover:
