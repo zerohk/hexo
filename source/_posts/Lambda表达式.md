@@ -4,11 +4,12 @@ tags:
   - java基础
   - java笔记
 categories:
-  - java
-  - 笔记
-top_img: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Lambda_expression_cover.jpg'
+  - [java]
+  - [笔记]
+top_img: >-
+  https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Lambda_expression_cover.jpg
 cover: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Lambda_expression_top.jpg'
-abbrlink:
+abbrlink: 3150929911
 date: 2020-10-14 22:50:00
 updated: 2020-10-14 23:13:00
 sticky:
@@ -18,7 +19,7 @@ message:
 wrong_pass_message:
 wrong_hash_message:
 keywords:
-description:
+description: 阅读全文
 comments:
 toc:
 toc_number:

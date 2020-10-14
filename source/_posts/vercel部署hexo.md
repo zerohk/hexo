@@ -12,7 +12,7 @@ keywords:
   - 博客
   - hexo
   - vercel
-description: 利用github和vercel搭建部署hexo博客
+description: 阅读全文
 top_img: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/vercel_create_blog_top.jpg'
 cover: >-
   https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/vercel_blog_create_cover.png

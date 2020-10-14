@@ -6,9 +6,9 @@ tags:
   - 数据库基础
   - java笔记
 categories:
-  - java
-  - 数据库
-  - 笔记
+  - [java]
+  - [数据库]
+  - [笔记]
 top_img: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/mysql_cover.jpg'
 cover: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/mysql_cover.jpg'
 abbrlink: 2640443603
@@ -21,7 +21,7 @@ message:
 wrong_pass_message:
 wrong_hash_message:
 keywords:
-description:
+description: 阅读全文
 comments:
 toc:
 toc_number:
