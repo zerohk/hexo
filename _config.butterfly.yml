@@ -10,7 +10,7 @@ menu:
    主页: / || fas fa-home
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags
-   Categories: /categories/ || fas fa-folder-open
+   分类: /categories/ || fas fa-folder-open
    影音书籍 ||fas fa-icons:
      - 音乐 || /music/ || fas fa-music
      - 影视 || /movies/ || fas fa-video
