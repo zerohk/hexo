@@ -11,13 +11,15 @@ menu:
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
-   影音书籍 ||fas fa-icons:
+   影音书籍 || fas fa-icons:
      - 音乐 || /music/ || fas fa-music
      - 影视 || /movies/ || fas fa-video
      - 阅读 || /books/ || fas fa-book-open
      - 相册 || /gallery/ || fas fa-images
    链接: /link/ || fas fa-link
-   碎碎念: /shuoshuo || fas fa-comment-alt
+   碎碎念 || fas fa-quote-right :
+      - 说说 || /shuoshuo || fas fa-comment-alt
+      - 日志 || /logs || fab fa-dailymotion
    关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -408,7 +410,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 1ba9058435e13ef6fe2be64ae277f0f4
+baidu_analytics: 
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -488,7 +490,7 @@ yandex_site_verification:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height: 400px
+index_top_img_height: 
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -675,9 +677,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -809,11 +811,11 @@ snackbar:
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)
-baidu_push: true
+baidu_push: false
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
@@ -824,7 +826,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
-  enable: false
+  enable: true
   post: /img/loading.gif
 
 # PWA
@@ -854,6 +856,7 @@ fragment_cache: true
 inject:
   head:
     - <meta name="referrer" content="no-referrer"/>
+    - <meta name="referrer" content="no-referrer-when-downgrade"/>
   # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
