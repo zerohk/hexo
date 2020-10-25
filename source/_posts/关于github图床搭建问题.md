@@ -10,8 +10,8 @@ keywords:
   - 图床
   - picgo
   - jsdelivr
-top_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98cover.jpg
-cover: https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/%E5%85%B3%E4%BA%8Egithub%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98top.jpeg
+top_img: /pics/1800832272_top.jpg
+cover: /pics/1800832272_cover.jpg
 abbrlink: 1800832272
 date: 2020-10-08 18:15:48
 updated: 2020-10-12 10:18:43

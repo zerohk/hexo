@@ -9,8 +9,8 @@ categories:
   - [java]
   - [数据库]
   - [笔记]
-top_img: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/mysql_cover.jpg'
-cover: 'https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/mysql_cover.jpg'
+top_img: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/2640443603_top.jpg
+cover: https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/2640443603_cover.jpg
 abbrlink: 2640443603
 date: 2020-10-12 01:12:25
 updated:
