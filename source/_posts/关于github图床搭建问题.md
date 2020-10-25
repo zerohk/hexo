@@ -14,7 +14,7 @@ top_img: /pics/1800832272_top.jpg
 cover: /pics/1800832272_cover.jpg
 abbrlink: 1800832272
 date: 2020-10-08 18:15:48
-updated: 2020-10-12 10:18:43
+updated: "`r format(Sys.time(), '%d %B, %Y')`"
 description: 阅读全文
 comments:
 toc:

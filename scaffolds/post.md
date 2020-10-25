@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-updated: {{ date }}
+updated: "`r format(Sys.time(), '%d %B, %Y')`"
 sticky:
 tags:
 categories:
