@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.buercheng.space/posts/21945543/</loc>
+    
+    <lastmod>2020-10-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.buercheng.space/posts/2640443603/</loc>
     
     <lastmod>2020-10-25</lastmod>
@@ -24,13 +31,6 @@
   
   <url>
     <loc>https://blog.buercheng.space/posts/1800832272/</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.buercheng.space/logs/index.html</loc>
     
     <lastmod>2020-10-25</lastmod>
     
@@ -158,6 +158,13 @@
   </url>
   
   <url>
+    <loc>https://blog.buercheng.space/tags/%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF/</loc>
+    <lastmod>2020-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
@@ -213,13 +220,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.buercheng.space/tags/%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF/</loc>
-    <lastmod>2020-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -244,13 +244,6 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2020-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.buercheng.space/categories/IDEA/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
@@ -259,6 +252,13 @@
   
   <url>
     <loc>https://blog.buercheng.space/categories/Gradle/</loc>
+    <lastmod>2020-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
