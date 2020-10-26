@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.buercheng.space/posts/21945543/</loc>
     
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     
   </url>
   
@@ -144,7 +144,7 @@
 
   <url>
     <loc>https://blog.buercheng.space/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -152,70 +152,77 @@
   
   <url>
     <loc>https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/github/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/hexo/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/vercel/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/MySQL/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -224,42 +231,49 @@
   
   <url>
     <loc>https://blog.buercheng.space/categories/java/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/categories/IDEA/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/categories/Gradle/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/categories/%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
