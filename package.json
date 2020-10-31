@@ -40,7 +40,7 @@
     "hexo-server": "^2.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-wordcount": "^6.0.1",
-    "terser": "^5.3.4"
+    "terser": "^5.3.8"
   },
   "devDependencies": {
     "gulp-clean-css": "^4.3.0",
