@@ -616,11 +616,21 @@ Fruit Juice Drinks这一列包含了Apple、Orange、Screwdriver三列。
 
 ## form元素
 
-一个表单中所有控件都必须在标签form元素的内容中指定。 `<form>`是一个块标签，它有多个不同属性。属性action指定了Web服务器上一个应用程序的URL，当用户单击提交按钮，将调用这个应用程序。method属性的可选为get和post，这两种方法用于将表单数据发送给服务器；默认选择为get。
+一个表单中所有控件都必须在标签form元素的内容中指定。 `<form>`是一个块标签，它有多个不同属性。属性action指定了Web服务器上一个应用程序的URL，当用户单击提交按钮，将调用这个应用程序。method属性的可选为get和post，这两种方法用于将表单数据发送给服务器；默认选择为get。**表单项数据若想提交，必须指定相应表单项标签的name属性**。
 
 若使用get，浏览器会把查询字符串附加到HTTP请求的URL中。get方法可以在不使用表单的情况下传送参数给服务器，而post无法做到这一点。get方法的主要缺点是，服务器会对URL字符串长度进行限制，把超过长度的字符截去；会直接在地址中显示密码等敏感数据。
 
 使用post方法，会有其他方法将查询字符串传递给表单处理程序。post方法对查询字符串长度没有限制，也不会暴露敏感信息。
+
+- get：
+	1. 请求参数会在地址栏中显示。
+	2. 会封装到请求行中(HTTP协议后讲解)。请求参数大小是有限制的。
+	3. 不太安全。
+
+- post：
+	1. 请求参数不会再地址栏中显示。会封装在请求体中(HTTP协议后讲解) 
+	2. 请求参数的大小没有限制。
+	3. 较为安全。
 
 ## input元素
 
@@ -628,7 +638,7 @@ Fruit Juice Drinks这一列包含了Apple、Orange、Screwdriver三列。
 
 标签`<input>`必须使用的一个属性是type。这个属性用于指定控件的类型。除了submit和reset外，前述控件还需要name属性，其值将包含在表单数据中发送给服务器。复选框和单选按钮还需指定属性value，它用于初始化控件的值。当单击提交按钮时，这些控件的值作为表单数据发送给服务器。很多时候，客户端代码中也会引用控件，主要是为了进行客户端验证，客户端代码通过控件的id属性值引用它们，因此，常见做法时在表单控件元素中同时包含name和id属性。
 
-通常文本控件称为文本框，该控件能创建一个水平框，用户可以在框中输入文本。文本框常用于收集用户信息。文本框默认长度一般为20个字符。我们可以通过 `<input>`标签的size属性来指定文本框的长度。如果用户输入的字符长度超出了文本框的空间，则文本框将可以滚动，如果不希望文本框滚动，可以在`<input>`标签中添加属性maxlength，该属性指定了浏览器允许该文本框能够接受的最大字符数目，将忽略多余数目。
+通常文本控件称为文本框，该控件能创建一个水平框，用户可以在框中输入文本。文本框常用于收集用户信息。文本框默认长度一般为20个字符。我们可以通过 `<input>`标签的size属性来指定文本框的长度。如果用户输入的字符长度超出了文本框的空间，则文本框将可以滚动，如果不希望文本框滚动，可以在`<input>`标签中添加属性maxlength，该属性指定了浏览器允许该文本框能够接受的最大字符数目，将忽略多余数目。placehold属性可以添加提示信息，当输入信息时，该提示信息会自动清空。
 
 ```html
 <!DOCTYPE HTML>
@@ -695,6 +705,27 @@ Fruit Juice Drinks这一列包含了Apple、Orange、Screwdriver三列。
 ![添加maxsize属性](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20201106154427484.png)
 
 > 添加maxsize属性后，其值大小后面的字符都不会再显示。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<!--  表单要想提交必须指定name属性  -->
+<form action="" method="get" name="login" >
+     <label>用户名：<input type="text" name="username" placeholder="请输入用户名"></label><br/>
+     <label>密  码：<input type="password" name="username" placeholder="请输入密码"></label>
+</form>
+</body>
+</html>
+```
+
+![image-20201114204737915](D:%5CGitHub%5Chexo%5Csource%5C_posts%5CHTML%E5%A4%8D%E4%B9%A0.assets%5Cimage-20201114204737915.png)
+
+> placehold属性用于显示提示信息。value属性可指定该字段的默认值，但是输入时不会自动清空。
 
 如果想让用户在为文本框输入内容时隐藏输入的内容，就需要用到密码控件。
 
@@ -803,6 +834,40 @@ phone:<input type="text" name="thePhone"/>
 ```
 
 ![单选按钮](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20201106162529577.png)
+
+* radio:单选框
+  注意：
+  	1. 要想让多个单选框实现单选的效果，则多个单选框的name属性值必须一样。
+  	2. 一般会给每一个单选框提供value属性，指定其被选中后提交的值
+  	3. checked属性，可以指定默认值
+
+  - checkbox：复选框
+  	注意：
+  	1. 一般会给每一个单选框提供value属性，指定其被选中后提交的值
+  	2. checked属性，可以指定默认值
+
+label标签可用于指定输入项的文字描述信息，它的for属性一般与input的id属性值对应。如果对应了，则点击label区域，会让input输入框获取焦点。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<!--  表单要想提交必须指定name属性  -->
+<form action="" method="get" name="login" >
+     <label for="username">用户名：<input type="text" name="username" placeholder="请输入用户名" id="username"></label><br/>
+     <label for="password">密  码：<input type="password" name="username" placeholder="请输入密码" id="password"></label>
+</form>
+</body>
+</html>
+```
+
+![image-20201114205636332](D:%5CGitHub%5Chexo%5Csource%5C_posts%5CHTML%E5%A4%8D%E4%B9%A0.assets%5Cimage-20201114205636332.png)
+
+> 当点击用户名或密码时，光标（输入焦点）会跳到用户名或密码输入框。
 
 简单按钮（plain button）可以使用button来指定。按钮可以触发JavaScript活动。
 
