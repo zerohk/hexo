@@ -320,8 +320,11 @@ valine:
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   tagMeta: ["博主","访客","小伙伴"]
-  master: ["f91e5b0e5470b7ed03e2841688d1810e"]
-  friends: [0935dcb17fe2c4976abc42608747f310","856c6d3a17da91aefcc6503921b80330"]
+  master: 
+    - "f91e5b0e5470b7ed03e2841688d1810e"
+  friends: 
+    - "0935dcb17fe2c4976abc42608747f310"
+    - "856c6d3a17da91aefcc6503921b80330"
   placeholder: 快来留下你的评论吧，小哥哥，小姐姐~ # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   metaPlaceholder: {"nick":"昵称/QQ号","mail":"邮箱（必填）"}
