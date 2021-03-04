@@ -527,3 +527,417 @@ public class TestArrayList4 {
 ```
 
 ![image-20210304113830425](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304113830425-1614831522073.png)
+
+# String类
+
+## String类概述
+
+### 概述
+
+`java.lang.String`类代表字符串。Java程序中所有的字符串文字（例如"abc" ）都可以被看作是实现此类的实
+例。
+类`String`中包括用于检查各个字符串的方法，比如用于比较字符串，搜索字符串，提取子字符串...
+
+### 字符串的特点
+
+1. 字符串的内容永不可变
+
+	- ```java
+		String s1 = "abc";
+		s1 += "d";
+		System.out.println(s1); // "abcd"
+		// 内存中有"abc"，"abcd"两个对象，s1从指向"abc"，改变指向，指向了"abcd"。
+		```
+
+2. 因为字符串不可变，所以字符串可以共享使用
+
+	- ```java
+		String s1 = "abc";
+		String s2 = "abc";
+		// 内存中只有一个"abc"对象被创建，同时被s1和s2共享。
+		```
+
+3. 字符串效果上相当于char数组，但是底层实现是byte数组
+
+	- `"abc"` 等效于 `char[] data={ 'a' , 'b' , 'c' }` 。
+
+	- ```java
+		String str = "abc";
+		等价于
+		char[] data = {'a','b','c'};
+		String str = new String(data);
+		```
+
+## 使用
+
+- 导包：String类位于`java.lang`包下，无需导包即可使用。
+- 构造方法：
+	- `public String()`:初始化创建新的String对象，以使其表示空字符串。
+	- `public String(char[] values)`:通过当前参数的字符数组来创建新的字符串。
+	- `public String(byte[] values)`:通过当前参数的byte数组来创建新的字符串。
+- 成员方法：见下
+
+## 常用方法
+
+### 判断功能的方法
+
+1. `public boolean equals(Object anObject):`将此字符串与指定对象进行比较。当且仅当指定对象不为空且为字符序列与比较字符串一致的String对象时，返回true；其他情况返回false。
+2. `public boolean equalsIgnoreCase(String str):`将此字符串于指定字符串进行比较。
+
+### 代码演示
+
+```java
+package cn.shenzc.java;
+
+public class TestString1 {
+    public static void main(String[] args) {
+        // 三种构造方法
+        String str1 = new String(); // 创建空字符串
+        System.out.println("str1 = " + str1);
+        char[] data = {'d', 'a', 't', 'a'};
+        String str2 = new String(data);
+        System.out.println("str2 = " + str2);
+        byte[] number = {97, 98}; // 数字转换成对应的ASCII值
+        String str3 = new String(number);
+        System.out.println("str3 = " + str3);
+
+        // 直接生成字符串
+        String str4 = "Hello Java!";
+
+        // 判断功能的方法
+        System.out.println(str4.equals("Hello Java"));
+        System.out.println("Hello java!".equals(str4));// 推荐写法，因为对象可能为null，会抛出NPE
+        System.out.println("hello java!".equalsIgnoreCase(str4));
+    }
+}
+```
+
+![image-20210304153815835](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304153815835.png)
+
+### 获取功能的方法
+
+1. `public int length()`:返回字符串的长度。
+2. `public String concat(String str)`:将指定字符串连接到字符串末尾。
+3. `public char charAt(int index)`:返回索引处的char值。
+4. `public int indexOf(String str)`:返回指定子字符串在此字符串中第一次出现的索引值。
+5. `public String substring(int beginIndex)`:返回从beginIndex开始直到字符串末尾的子字符串。
+6. `public String substring(int beginIndex, int endIndex)`:返回beginIndex（包括）与endIndex（不包括）之间的子字符串。
+
+### 代码演示
+
+```java
+package cn.shenzc.java;
+
+public class TestString2 {
+    public static void main(String[] args) {
+        String str = "abcdefghijklmnopqrstuvwxyz";
+        System.out.println("str的长度为：" + str.length());
+        System.out.println("str第20位的字符为：" + str.charAt(19)); // 索引从零开始
+        System.out.println("i第一次出现的位置为：" + (str.indexOf('i') + 1));
+        System.out.println("第6位到结尾的子字符串为：" + str.substring(5));
+        System.out.println("第7位到12位的子字符串为：" + str.substring(7, 13));
+        System.out.println("将str与123连接后的字符串为：" + str.concat("123"));
+    }
+}
+```
+
+![image-20210304202117487](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304202117487.png)
+
+### 转换功能的方法
+
+1. `public char[] toCharArray()`:将此字符串转换为新的字符数组。
+2. `public byte[] getBytes()`:使用平台的默认字符集将该 String编码转换为新的字节数组。
+3. `public String replace(CharSequence target, CharSequence replacement)`:将与target字符串匹配的子字符串用replacement替换。
+
+### 代码演示
+
+```java
+package cn.shenzc.java;
+
+public class TestString3 {
+    public static void main(String[] args) {
+        String str = "TestString";
+        char[] chars = str.toCharArray();
+        for (char aChar : chars) {
+            System.out.print(aChar + " ");
+        }
+        System.out.println();
+        byte[] bytes = str.getBytes();
+        for (byte aByte : bytes) {
+            System.out.print(aByte + " ");
+        }
+        System.out.println();
+        System.out.println("原始字符串：" + str);
+        String replace = str.replace("String", "Java");
+        System.out.println("替换后的字符串：" + replace);
+    }
+}
+```
+
+![image-20210304204600802](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304204600802.png)
+
+### 分割功能的方法
+
+- `public String[] split(String regex)`:将字符串按照指定的regex（规则）拆分为字符串数组。
+
+### 代码演示
+
+```java
+package cn.shenzc.java;
+
+public class TestString4 {
+    public static void main(String[] args) {
+        String str = "aabacadaea";
+        String[] as = str.split("a");
+        for (String a : as) {
+            System.out.print(a + "-");
+        }
+        System.out.println();
+        String str2 = "a-b-c-d--e---f";
+        String[] split = str2.split("-");
+        for (String s : split) {
+            System.out.print(s + "+");
+        }
+    }
+}
+```
+
+![image-20210304205507768](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304205507768.png)
+
+## 字符串常量池
+
+由于字符串是不可变的，所以字符串是可以共享的，由此引出字符串常量池。只要是直接用双引号生成的字符串都位于字符串常量池中，是可以共享的。
+
+```java
+public class TestStringPool {
+    public static void main(String[] args) {
+        String s1 = "Shen";
+        String s2 = "Shen";
+        char[] c = {'S','h','e','n'};
+        String s3 = new String(c);
+
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s3);
+        System.out.println(s2 == s3);
+    }
+}
+```
+
+![image-20200624220304046](D:%5CGitHub%5Chexo%5Csource%5C_posts%5CJava%E5%B8%B8%E7%94%A8%E7%B1%BB.assets%5Cimage-20200624220304046.png)
+
+对于基本类型来说，==是进行值比较；对于引用类型来说是地址比较。
+
+![image-20200624222535093](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20200624222535093.png)
+
+## 代码演示
+
+### 1.拼接字符串
+
+> 定义一个方法，把数组{1,2,3}按照指定格式拼接成一个字符串。格式参照如下：`[word1#word2#word3]`。
+
+```java
+package cn.shenzc.java;
+
+public class TestString5 {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3};
+        String s = arrayToString(numbers);
+        System.out.println(s);
+    }
+    public static String arrayToString(int[] arr) {
+        String str = new String("[");
+        for(int i = 0;i < arr.length;i++) {
+            if(i == (arr.length - 1)) {
+                str = str.concat(arr[i] + "]");
+            } else {
+                str = str.concat(arr[i] + "#");
+            }
+        }
+        return str;
+    }
+}
+```
+
+![image-20210304212500806](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304212500806.png)
+
+### 2.统计字符个数
+
+> 键盘录入一个字符串，统计字符串中大小写字母及数字字符个数。
+
+```java
+package cn.shenzc.java;
+
+import java.util.Scanner;
+
+public class TestString6 {
+    public static void main(String[] args) {
+        System.out.println("请输入一个字符串：");
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int upper = 0;
+        int lower = 0;
+        int number = 0;
+        int others = 0;
+        char element;
+        for (int i = 0; i < str.length(); i++) {
+            element = str.charAt(i);
+            if(element >= 48 && element <= 57) {  // 直接用'0'和'9'代替即可
+                number++;
+            } else if(element >= 65 && element <= 90) {  // 直接用'A'和'Z'代替即可
+                upper++;
+            } else if(element >= 97 && element <= 122) {  // 直接用'a'和'z'代替即可
+                lower++;
+            } else others++;
+        }
+        System.out.println("在字符串" + str + "中\n，数字出现了" + number + "次，小写字母出现了" +
+                lower + "次，大写字母出现了" + upper + "次，其他字符出现了" + others + "次");
+    }
+}
+```
+
+![image-20210304223956949](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304223956949.png)
+
+# static关键字
+
+## 概述
+
+static 关键字，可以用来修饰成员变量和成员方法，被修饰的成员是属于类的，而不是单单是属
+于某个对象的。也就是说，既然属于类，就可以不靠创建对象来调用了。
+
+## static修饰成员变量
+
+当 static 修饰成员变量时，该变量称为**类变量**。该类的每个对象都共享同一个类变量的值。任何对象都可以更改
+该类变量的值，也可以在不创建该类的对象的情况下对类变量进行操作。
+
+### 定义格式：
+
+```java
+static 数据类型 变量名;
+```
+
+## static修饰成员方法
+
+用static修饰的成员方法，叫作类方法，更习惯叫作静态方法。静态方法在声明中有static ，建议使用类名来调用，而不需要创建类的对象。调用方式非常简单。
+
+### 定义格式：
+
+```java
+修饰符 static 返回值 方法名(参数列表) {
+	方法体
+}
+```
+
+### 注意事项
+
+1. 静态不能直接访问非静态内容，但可以访问静态内容（静态变量和方法）。因为在内存中先有静态内容，后有非静态内容。但是非静态的成员方法可以访问静态变量和方法。
+2. 对于本类当中的静态方法，可以省略类名称。
+3. 静态方法中不能使用this关键字。因为this代表当前对象。
+4. 推荐使用  类名.静态成员  的方法调用静态成员。
+
+## static修饰代码块
+
+定义在成员位置，用static修饰的代码块叫作静态代码块。随着类的加载而执行且只执行一次，优先于main方法和构造方法的执行。其作用是给静态变量赋值。
+
+```java
+static { 
+	//静态代码块内容
+	}
+```
+
+# 数组工具类Arrays
+
+## 概述
+
+`java.util.Arrays`是一个与数组相关的工具类，提供了大量的静态方法，用来实现数组常见的操作，如搜索、排序。
+
+## 常用方法
+
+### public static String toString(int[]  arr): 
+
+将参数数组变成字符串。格式：[元素1，元素2，...]
+
+```java
+package cn.shenzc.java;
+import java.util.Arrays;
+public class TestArrays {
+    public static void main(String[] args) {
+        int[] array1 = {1,3,2,14,12,76,34};
+        System.out.println(Arrays.toString(array1));
+        String[] array2 = {"shen","zhi","cheng"};
+        System.out.println(Arrays.toString(array2));
+    }
+}
+```
+
+![image-20200626145233749](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20200626145233749.png)
+
+### public static void sort(int[] arr)：
+
+按照默认升序对数组元素进行排序。
+
+```java
+package cn.shenzc.java;
+
+import java.util.Arrays;
+
+public class TestArrays {
+    public static void main(String[] args) {
+        int[] array1 = {1,3,2,14,12,76,34};
+        System.out.println(Arrays.toString(array1));
+        String[] array2 = {"shen","zhi","cheng"};
+        System.out.println(Arrays.toString(array2));
+
+        System.out.println("===============");
+        System.out.println("排序：");
+        Arrays.sort(array1);
+        System.out.println(Arrays.toString(array1));
+        Arrays.sort(array2);
+        System.out.println(Arrays.toString(array2));
+    }
+}
+```
+
+![image-20200626171303463](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20200626171303463.png)
+
+## 代码演示
+
+> 使用Arrays 相关的API，将一个随机字符串中的所有字符升序排列，并倒序打印。
+
+```java
+package cn.shenzc.java;
+
+import java.util.Arrays;
+
+public class TestArrays {
+    public static void main(String[] args) {
+        // 随机字符串
+        String str = "dcvajhgyi";
+        // 排序
+        // 先转化为字符数组
+        char[] chars = str.toCharArray();
+        Arrays.sort(chars);
+        // 倒序输出
+        for (int i = chars.length - 1; i > 0; i--) {
+            System.out.print(chars[i] + ",");
+        }
+        System.out.println(chars[0]);
+    }
+}
+
+```
+
+![image-20210304233719551](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210304233719551.png)
+
+# 数学工具类Math
+
+## 概述
+
+`java.lang.Math`是数学相关的工具类，提供了大量的静态方法，完成与数学相关的操作。
+
+## 常用方法 
+
+- `public static double abs(double num):`获取绝对值
+- `public static double ceil(double num):`向上取整。返回大于等于参数的最小整数。
+- `public static double floor(double num):`向下取整。返回小于等于参数的最小整数。
+- `public static long round(double num):`四舍五入。
+
