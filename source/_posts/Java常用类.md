@@ -723,7 +723,7 @@ public class TestStringPool {
 }
 ```
 
-![image-20200624220304046](D:%5CGitHub%5Chexo%5Csource%5C_posts%5CJava%E5%B8%B8%E7%94%A8%E7%B1%BB.assets%5Cimage-20200624220304046.png)
+![](D:%5CGitHub%5Chexo%5Csource%5C_posts%5CJava%E5%B8%B8%E7%94%A8%E7%B1%BB.assets%5Cimage-20200624220304046.png)
 
 对于基本类型来说，==是进行值比较；对于引用类型来说是地址比较。
 
