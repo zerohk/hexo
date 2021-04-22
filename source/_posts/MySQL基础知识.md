@@ -54,6 +54,25 @@ highlight_shrink:
 ### 通过控制台启动MySQL服务
 
 以管理员模式打开控制台。
+> 1、win10系统，按住win+x，选择图示选项即可快速以管理员模式打开powershell；
+>
+> ![win+X](https://cdn.jsdelivr.net/gh/bu2cheng/picpic/1.png)
+>
+> 2、如果习惯了win+R的方式，可以添加新的命令进去以管理员模式打开cmd控制台，具体方法如下：
+>
+>   - 在 `%windir%\system32\`目录下，找到cmd，添加快捷方式到`C:\Windows`目录下，为避免冲突给这个快捷方式起一个别名；
+>
+> 	![image-20210422230828986](https://cdn.jsdelivr.net/gh/bu2cheng/picpic/image-20210422230828986.png)
+>
+> 	![image-20210422231028599](https://cdn.jsdelivr.net/gh/bu2cheng/picpic/image-20210422231028599.png)
+>
+> - 右键双击此快捷方式-->快捷方式-->高级-->勾选以管理员方式运行
+>
+> 	![image-20210422231256468](https://cdn.jsdelivr.net/gh/bu2cheng/picpic/image-20210422231256468.png)
+>
+> - 使用win+R，输入之前的别名即可以管理员方式打开cmd。
+
+
 
 `net start mysql`:启动MySQL服务。
 
