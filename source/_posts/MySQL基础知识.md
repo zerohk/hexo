@@ -86,6 +86,10 @@ highlight_shrink:
 
 2、`mysql -u用户名 -p`:回车后要求输入密码
 
+3、`mysql -h localhost -P 端口号 -u root -p[密码/回车]`:以本地服务器的方式登录数据库
+
+> 注意：`-h、-P、-u`后面的空格可有可无，`-p`后面如果直接跟密码则不能有空格
+
 ### 远程数据库登录
 
 1、`mysql -h远程数据库地址 -u用户名 -p密码 `
@@ -95,6 +99,10 @@ highlight_shrink:
 3、`mysql --host=远程数据库地址 --user=用户名 --password=密码`
 
 4、`mysql --host=远程数据库地址 --user=用户名 --password`
+
+### 数据库退出
+- `exit`
+- `Ctrl+c`
 
 # 数据库的目录结构
 
@@ -200,6 +208,10 @@ create database if not exists db4 character set gbk;
 
 ```mysql
 show databases;     -- 查询所有已创建的数据库
+```
+
+```mysql
+select database();     -- 查询当前所使用的数据库
 ```
 
 ![image-20200922001542219](https://cdn.jsdelivr.net/gh/bu2cheng/picpic@master/blogimg/image-20200922001542219.png)
@@ -313,6 +325,10 @@ create table 新的表名 like 已存在的表名;  -- 复制表
 
 ```mysql
 show tables;    -- 查询正在使用的数据库中的所有表
+```
+
+```mysql
+show tables from 数据库名;    -- 查询正在特定的数据库中的所有表，如果当前使用的是另一个数据库，执行命令后仍在此数据库，而不会切换到该特定数据库
 ```
 
 用use命令切换到mysql：
@@ -479,6 +495,13 @@ select * from 表名;  -- 查询表中所有记录
 ```mysql
 select 列名1,列名2,... from 表名; -- 多字段查询
 ```
+
+### 查询细节
+添加着重号可区分关键字和字段。
+比方说，`myemployees`表中有个字段为`name`,如果不添加着重号，查询时会把`name`当作关键字，使得查询出错：
+![](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20002627.jpg)
+给`name`字段加上着重号，可以避免查询出错：
+![](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20003028.jpg)
 
 #### 代码演示：
 
