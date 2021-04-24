@@ -606,6 +606,10 @@ select name,math,english,math+ifnull(english,0) from student; -- 为NULL时就�
 列名 as 别名 -- 使用关键字as对列名设置别名
 ```
 
+**别名的好处**：
+          - 便于理解
+          - 如果要查询的字段存在重复名称时，使用别名可以区分开来
+
 #### 代码演示
 
 ```mysql
@@ -631,6 +635,8 @@ select name,math 数学,english 英语,math+ifnull(english,0) 总分 from studen
 ```
 
 ![image-20200922180414253](https://cdn.jsdelivr.net/gh/bu2cheng/picpic@master/blogimg/image-20200922180414253.png)
+
+> 当别名中存在关键字时，可以将别名用引号（单双皆可）包括起来。
 
 ## 条件查询
 
