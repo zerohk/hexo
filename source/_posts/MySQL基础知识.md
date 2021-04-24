@@ -658,6 +658,13 @@ where子句后加条件。
 | \|\| 或 OR | 或，SQL中建议使用OR，\|\|并不通用。 |
 | ! 或 NOT   | 非，SQL中建议使用NOT，!并不通用。   |
 
+> 注：null不能用`=、>、<`等符号来进行判断。判断一个字段是否为null，除了使用IS NULL之外，还可以使用安全等于：`<=>`。此外安全等于也可以用于判断非NULL的字段是否相等。
+> ![使用IS NULL判断字段是否为NULL](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20230952.jpg)
+> ![使用安全等于判断字段是否为NULL](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20231157.jpg)
+> ![使用=查询字段是否满足](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20231520.jpg)
+> ![使用安全等于](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/%E6%89%B9%E6%B3%A8%202021-04-24%20231625.jpg)
+
+
 ### 代码演示
 
 1.查询math大于80的人
