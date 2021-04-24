@@ -768,12 +768,37 @@ select * from student where name LIKE '___';
 ![image-20200922231318145](https://cdn.jsdelivr.net/gh/bu2cheng/picpic@master/blogimg/image-20200922231318145.png)
 
 
+#### 使用转义字符
+
+如果想要查询结果中包含`_、%`的字段可以使用转义字符
+- 使用`\`来转义
+- 使用`escape`关键字来定义任意符号为转义字符
+
+```mysql
+#查询员工中，名字第二个字为_的员工信息
+SELECT 
+  * 
+FROM
+  employees 
+WHERE last_name LIKE '_\_' ; #用\将_转义，不再作为通配字符
+```
+
+```mysql
+SELECT 
+  * 
+FROM
+  employees 
+WHERE last_name LIKE '_$_' ESCAPE '$' ; # 使用ESCAPE关键字将$设置为转义字符，$将_转义，不再作为通配字符
+
+SELECT 
+  * 
+FROM
+  employees 
+WHERE last_name LIKE '_a_' ESCAPE 'a' ; # 使用ESCAPE关键字将a设置为转义字符，a将_转义，不再作为通配字符
+```
+
 
 # 表的约束
-
-
-
-
 
 ## 外键约束
 
