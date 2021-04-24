@@ -607,8 +607,8 @@ select name,math,english,math+ifnull(english,0) from student; -- 为NULL时就�
 ```
 
 **别名的好处**：
-          - 便于理解
-          - 如果要查询的字段存在重复名称时，使用别名可以区分开来
+- 便于理解
+- 如果要查询的字段存在重复名称时，使用别名可以区分开来
 
 #### 代码演示
 
