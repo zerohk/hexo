@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2021-03-04T15:50:01.561Z</updated>
+  <updated>2021-04-26T15:15:39.130Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL常用函数</title>
+    <link href="https://blog.buercheng.space/posts/1865743498/"/>
+    <id>https://blog.buercheng.space/posts/1865743498/</id>
+    <published>2021-04-26T15:05:08.000Z</published>
+    <updated>2021-04-26T15:15:39.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;字符函数&quot;&gt;&lt;a href=&quot;#字符函数&quot; class=&quot;headerlink&quot; title=&quot;字符函数&quot;&gt;&lt;/a&gt;字符函数&lt;/h1&gt;&lt;h2 id=&quot;length计算长度&quot;&gt;&lt;a href=&quot;#length计算长度&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
+    
+    <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>Java常用类</title>
