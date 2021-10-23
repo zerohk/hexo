@@ -6,7 +6,7 @@
 'use strict'
 
 hexo.extend.helper.register('inject_head_js', function () {
-  const { darkmode, aside, change_font_size } = this.theme
+  const { darkmode, aside } = this.theme
 
   const localStore = `
     win.saveToLocal = {
@@ -131,15 +131,14 @@ hexo.extend.helper.register('inject_head_js', function () {
     `
   }
 
-  let changFontAside = ''
-  if (change_font_size) {
-    changFontAside = `
-    const fontSizeVal = saveToLocal.get('global-font-size')
-    if (fontSizeVal !== undefined) {
-      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+  const detectApple = `
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
     }
+    detectApple()
     `
-  }
 
-  return `<script>(win=>{${localStore + getScript + darkmodeJs + asideStatus + changFontAside}})(window)</script>`
+  return `<script>(win=>{${localStore + getScript + darkmodeJs + asideStatus + detectApple}})(window)</script>`
 })

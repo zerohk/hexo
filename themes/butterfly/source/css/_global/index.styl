@@ -19,7 +19,7 @@
   --btn-hover-color: $button-hover-color
   --btn-color: $button-color
   --btn-bg: $button-bg
-  --text-bg-hover: $text-bg-hover
+  --text-bg-hover: rgba($text-bg-hover, .7)
   --light-grey: $light-grey
   --white: $white
   --text-highlight-color: $text-highlight-color
@@ -27,12 +27,11 @@
   --blockquote-bg: $blockquote-background-color
   --reward-pop: $reward-pop-up-bg
   --toc-link-color: $toc-link-color
-  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, .06)
-  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, .15)
-
-html
-  height: 100%
-  font-size: 20px
+  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, .05)
+  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, .09)
+  --timeline-bg: $timeline-content-bg
+  --timeline-border-color: $timeline-border-color
+  --pseudo-hover: $pseudo-hover
 
 body
   position: relative
@@ -79,7 +78,7 @@ h4,
 h5,
 h6
   position: relative
-  margin: 1rem 0 .7rem
+  margin: 20px 0 14px
   color: var(--text-highlight-color)
   font-weight: bold
 
@@ -91,7 +90,7 @@ h6
 
 hr
   position: relative
-  margin: 2rem auto
+  margin: 40px auto
   border: 2px dashed var(--hr-border)
 
   if hexo-config('hr_icon.enable')
@@ -115,7 +114,7 @@ hr
 
 .table-wrap
   overflow-x: scroll
-  margin: 0 0 1rem
+  margin: 0 0 20px
 
 table
   display: table
@@ -129,7 +128,7 @@ table
 
   th,
   td
-    padding: .3rem .6rem
+    padding: 6px 12px
     border: 1px solid var(--light-grey)
     vertical-align: middle
 
@@ -143,6 +142,7 @@ button
   border: none
   background: none
   cursor: pointer
+  touch-action: manipulation
 
 a
   color: $a-link-color
@@ -199,16 +199,38 @@ if $site-name-font
       transform: scaleX(1)
 
 img
-  max-width: 100%
-  transition: all .2s
-
   &[src=''],
   &:not([src])
     opacity: 0
 
+// lazyload blur
+if hexo-config('lazyload.enable') && hexo-config('lazyload.blur') && !hexo-config('lazyload.placeholder')
+  img
+    &[data-lazy-src]:not(.loaded)
+      filter: blur(8px) brightness(1)
+
+    &[data-lazy-src].error
+      filter: none
+
 .img-alt
-  margin: -.5rem 0 .5rem
+  margin: -10px 0 10px
   color: #858585
 
   &:hover
     text-decoration: none !important
+
+blockquote
+  margin: 0 0 20px
+  padding: 12px 15px
+  border-left: 3px solid $blockquote-padding-color
+  background-color: var(--blockquote-bg)
+  color: var(--blockquote-color)
+
+  footer
+    cite
+      &:before
+        padding: 0 5px
+        content: '—'
+
+  & > :last-child
+    margin-bottom: 0 !important

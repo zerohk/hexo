@@ -78,7 +78,8 @@
     highlight = JSON.stringify({
       plugin: config.highlight.enable ? 'highlighjs' : 'prismjs',
       highlightCopy: theme.highlight_copy,
-      highlightLang: theme.highlight_lang
+      highlightLang: theme.highlight_lang,
+      highlightHeightLimit: theme.highlight_height_limit
     })
   }
 
@@ -111,14 +112,9 @@ script.
     lightbox: '!{ theme.medium_zoom ? "mediumZoom" : (theme.fancybox ? "fancybox" : "null" )}',
     Snackbar: !{Snackbar},
     source: {
-      jQuery: '!{url_for(theme.CDN.jquery)}',
       justifiedGallery: {
-        js: '!{url_for(theme.CDN.justifiedGallery_js)}',
-        css: '!{url_for(theme.CDN.justifiedGallery_css)}'
-      },
-      fancybox: {
-        js: '!{url_for(theme.CDN.fancybox)}',
-        css: '!{url_for(theme.CDN.fancybox_css)}'
+        js: '!{url_for(theme.CDN.flickr_justified_gallery_js)}',
+        css: '!{url_for(theme.CDN.flickr_justified_gallery_css)}'
       }
     },
     isPhotoFigcaption: !{theme.photofigcaption},
