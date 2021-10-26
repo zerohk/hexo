@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2021-04-26T15:15:39.130Z</updated>
+  <updated>2021-10-26T14:28:53.987Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>WolfRam Language</title>
+    <link href="https://blog.buercheng.space/posts/1760471615/"/>
+    <id>https://blog.buercheng.space/posts/1760471615/</id>
+    <published>2021-10-26T14:19:14.000Z</published>
+    <updated>2021-10-26T14:28:53.987Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-基本算术运算&quot;&gt;&lt;a href=&quot;#1-基本算术运算&quot; class=&quot;headerlink&quot; title=&quot;1. 基本算术运算&quot;&gt;&lt;/a&gt;1. 基本算术运算&lt;/h1&gt;&lt;p&gt;Wolfram</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>MySQL常用函数</title>
     <link href="https://blog.buercheng.space/posts/1865743498/"/>
     <id>https://blog.buercheng.space/posts/1865743498/</id>
     <published>2021-04-26T15:05:08.000Z</published>
-    <updated>2021-04-26T15:15:39.130Z</updated>
+    <updated>2021-04-26T15:16:02.259Z</updated>
     
     
       
@@ -108,7 +129,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;登录获取链接&quot;&gt;&lt;a href=&quot;#登录获取链接&quot; class=&quot;headerlink&quot; title=&quot;登录获取链接&quot;&gt;&lt;/a&gt;登录获取链接&lt;/h1&gt;&lt;p&gt;1、微信中登录打开相关课程页面&lt;/p&gt;
-&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -175,9 +196,9 @@
     <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
     
     
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
     
     <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
     
@@ -235,9 +256,9 @@
     <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
     
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
     
     <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
     
@@ -266,9 +287,9 @@
     <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
     
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
     
     <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
     
@@ -393,9 +414,9 @@
     
     <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
     
-    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
-    
     <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
     
     <category term="vercel" scheme="https://blog.buercheng.space/tags/vercel/"/>
     
@@ -497,9 +518,9 @@
     
     <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
     
-    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
-    
     <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
     
   </entry>
   
