@@ -1,3 +1,4 @@
+- let disqusjsApi = theme.disqusjs.api || 'https://disqus.skk.moe/disqus/'
 - let disqusjsPageTitle = page.title.replace(/'/ig,"\\'")
 
 script.
@@ -11,15 +12,19 @@ script.
 
     function initDisqusjs () {
       window.DISQUS = null
-      new DisqusJS(Object.assign({
+      new DisqusJS({
         shortname: '!{theme.disqusjs.shortname}',
+        siteName: '!{theme.disqusjs.siteName}',
         identifier: '!{ page.path }',
         url: '!{ page.permalink }',
         title: '!{ disqusjsPageTitle }',
+        api: '!{disqusjsApi}',
         apikey: '!{theme.disqusjs.apikey}',
-      },!{JSON.stringify(theme.disqusjs.option)}))
+        nocomment: '!{theme.disqusjs.nocomment}',
+        admin: '!{theme.disqusjs.admin}',
+        adminLabel: '!{theme.disqusjs.adminLabel}'
+      });
     }
-
 
     window.disqusReset = initDisqusjs
 

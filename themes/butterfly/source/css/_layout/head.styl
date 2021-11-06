@@ -7,13 +7,6 @@
   background-repeat: no-repeat
   transition: all .5s
 
-  &:not(.not-top-img):before
-    position: absolute
-    width: 100%
-    height: 100%
-    background-color: alpha($dark-black, .3)
-    content: ''
-
   // index
   &.full_page
     height: $index_top_img_height
@@ -22,14 +15,14 @@
     #site-info
       position: absolute
       top: $index_site_info_top
-      padding: 0 10px
+      padding: 0 .5rem
       width: 100%
 
   #site-title,
   #site-subtitle,
   #scroll-down .scroll-down-effects
     text-align: center
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .15)
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, .15)
     line-height: 1.5
 
   #site-title
@@ -50,17 +43,18 @@
   #site_social_icons
     display: none
     margin: 0 auto
-    width: 300px
+    width: 15rem
     text-align: center
 
     +maxWidth768()
       display: block
 
     .social-icon
-      margin: 0 10px
+      margin: 0 .5rem
       color: var(--light-grey)
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, .15)
+      text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, .15)
       font-size: 1.43em
+      cursor: pointer
 
   #scroll-down
     position: absolute
@@ -76,47 +70,54 @@
 
   // page
   &.not-home-page
-    height: 400px
+    height: 20rem
 
     +maxWidth768()
-      height: 280px
+      height: 14rem
 
   #page-site-info
     position: absolute
-    top: 200px
-    padding: 0 10px
+    top: 10rem
+    padding: 0 .5rem
     width: 100%
 
     +maxWidth768()
-      top: 140px
+      top: 7rem
 
   // post
   &.post-bg
-    height: 400px
+    height: 20rem
 
     +maxWidth768()
-      height: 360px
+      height: 18rem
 
     &:before
+      position: absolute
+      top: 0
+      left: 0
+      display: block
+      width: 100%
+      height: 100%
       background-color: alpha($dark-black, .5)
+      content: ''
 
   #post-info
     position: absolute
-    bottom: 100px
+    bottom: 5rem
     padding: 0 8%
     width: 100%
     text-align: center
 
     +maxWidth900()
-      bottom: 30px
+      bottom: 1.5rem
       text-align: left
 
     +maxWidth768()
-      bottom: 22px
-      padding: 0 22px
+      bottom: 1.1rem
+      padding: 0 1.1rem
 
   &.not-top-img
-    margin-bottom: 10px
+    margin-bottom: .5rem
     height: 60px
     background: 0
 
@@ -156,17 +157,21 @@
         top: 70px
         transition: top .5s
 
+.apple
+  #page-header.full_page
+    background-attachment: scroll !important
+
 #page
   h1.page-title
-    margin: 8px 0 20px
+    margin: .4rem 0 1rem
 
 // for not top_img
 #post
   & > #post-info
-    margin-bottom: 30px
+    margin-bottom: 1.5rem
 
     .post-title
-      padding-bottom: 4px
+      padding-bottom: .2rem
       border-bottom: 1px solid var(--light-grey)
       color: var(--text-highlight-color)
 
@@ -180,7 +185,7 @@
 #post-info
   .post-title
     @extend .limit-more-line
-    margin-bottom: 8px
+    margin-bottom: .4rem
     color: var(--white)
     font-weight: normal
     font-size: 2.5em
@@ -188,10 +193,10 @@
     -webkit-line-clamp: 3
 
     +maxWidth768()
-      font-size: 2.1em
+      font-size: 1.72em
 
     .post-edit-link
-      padding-left: 10px
+      padding-left: .5rem
 
   #post-meta
     color: var(--light-grey)
@@ -211,14 +216,14 @@
 
     .post-meta
       &-separator
-        margin: 0 5px
+        margin: 0 .25rem
 
       &-icon
-        margin-right: 4px
+        margin-right: .2rem
 
       &-label
         if hexo-config('post_meta.post.label')
-          margin-right: 4px
+          margin-right: .2rem
         else
           display: none
 
@@ -239,6 +244,7 @@
   top: 0
   z-index: 90
   display: flex
+  flex-wrap: wrap
   align-items: center
   padding: 0 36px
   width: 100%
@@ -258,7 +264,7 @@
 
   #toggle-menu
     display: none
-    padding: 2px 0 0 6px
+    padding: .1rem 0 0 .3rem
     vertical-align: top
 
     &:hover
@@ -271,7 +277,7 @@
       color: var(--white)
 
   #site-name
-    text-shadow: 2px 2px 4px rgba($dark-black, .15)
+    text-shadow: .1rem .1rem .2rem rgba($dark-black, .15)
     font-weight: bold
     cursor: pointer
 
@@ -281,16 +287,16 @@
     .menus_item
       position: relative
       display: inline-block
-      padding: 0 0 0 14px
+      padding: 0 0 0 .7rem
 
       &:hover
         .menus_item_child
           display: block
 
-        & > a > i:last-child
-          transform: rotate(180deg)
+        i.expand
+          transform: rotate(180deg) !important
 
-      & > a > i:last-child
+      i.expand
         padding: 4px
         transition: transform .3s
 
@@ -321,7 +327,7 @@
 
           a
             display: inline-block
-            padding: 6px 14px
+            padding: .3rem .7rem
             width: 100%
             color: var(--font-color) !important
             text-shadow: none !important
@@ -334,19 +340,22 @@
         font-size: inherit
 
     .menus_items
-      display: none
+      position: absolute
+      left: 0
+      visibility: hidden
+      opacity: 0
 
     #search-button span
-      display: none
+      display: none !important
 
   #search-button
     display: inline
-    padding: 0 0 0 14px
+    padding: 0 0 0 .7rem
 
   .site-page
     position: relative
-    padding-bottom: 6px
-    text-shadow: 1px 1px 2px rgba($dark-black, .3)
+    padding-bottom: .3rem
+    text-shadow: .05rem .05rem .1rem rgba($dark-black, .3)
     font-size: .78em
     cursor: pointer
 

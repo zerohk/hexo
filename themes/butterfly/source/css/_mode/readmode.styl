@@ -11,9 +11,6 @@ if hexo-config('readmode')
     --exit-btn-bg: #C0C0C0
     --exit-btn-color: #fff
     --exit-btn-hover: darken(#C0C0C0, 20)
-    --timeline-bg: none
-    --timeline-border-color: none
-    --pseudo-hover: none
 
   [data-theme='dark']
     .read-mode
@@ -36,7 +33,6 @@ if hexo-config('readmode')
       position: fixed
       top: 30px
       right: 30px
-      z-index: 100
       width: 40px
       height: 40px
       border-radius: 8px
@@ -44,10 +40,6 @@ if hexo-config('readmode')
       color: var(--exit-btn-color)
       font-size: 16px
       transition: background .3s
-
-      +maxWidth768()
-        top: initial
-        bottom: 30px
 
       &:hover
         background: var(--exit-btn-hover)
@@ -139,7 +131,7 @@ if hexo-config('readmode')
       ul
         >li
           &:before
-            border-color: var(--gray) !important
+            border: .15rem solid var(--gray) !important
 
       .tabs
         border: 2px solid var(--tab-border-color)
@@ -168,7 +160,7 @@ if hexo-config('readmode')
         color: var(--font-color)
 
       blockquote
-        border-color: var(--gray)
+        border-left: .2rem solid var(--gray)
         background-color: var(--readmode-light-color)
 
       kbd

@@ -20,11 +20,11 @@
 
 一款基於[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主題
 
-## 💻 安裝
+## 安裝
 
 ### Git 安裝
 
-> 本倉庫同時上傳到 [Gitee](https://gitee.com/immyw/hexo-theme-butterfly.git)，如果你訪問 Github 緩慢，可從 Gitee 中下載。
+> 本倉庫同時上傳到 [Gitee](https://gitee.com/iamjerryw/hexo-theme-butterfly)，如果你訪問 Github 緩慢，可從 Gitee 中下載。
 
 在博客根目錄裡安裝穩定版【推薦】
 
@@ -48,8 +48,7 @@ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/bu
 npm i hexo-theme-butterfly
 ```
 
-## ⚙ 應用主題
-
+## 應用主題
 修改hexo配置文件`_config.yml`，把主題改為`Butterfly`
 
 ```
@@ -58,7 +57,7 @@ theme: butterfly
 
 >如果你沒有pug以及stylus的渲染器，請下載安裝： npm install hexo-renderer-pug hexo-renderer-stylus --save
 
-## 🎉 特色
+## 特色
 
 - [x] 卡片化設計
 - [X] 支持二級目錄
@@ -97,13 +96,7 @@ theme: butterfly
 - [x] 圖片懶加載
 - [x] Instantpage/Pangu/Snackbar彈窗/PWA......
 
-## ✨ 贡献者
-
-<a href="https://github.com/jerryc127/hexo-theme-butterfly/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jerryc127/hexo-theme-butterfly" />
-</a>
-
-## 📷 截圖
+## 截圖
 
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-1.jpg)
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-2.jpg)
