@@ -221,20 +221,6 @@
 
   
   <url>
-    <loc>https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.buercheng.space/tags/CSS/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -249,14 +235,14 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/tags/LaTeX/</loc>
+    <loc>https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.buercheng.space/tags/CSS/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -270,7 +256,14 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/tags/JAVA-SOCKET/</loc>
+    <loc>https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/tags/LaTeX/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -285,6 +278,13 @@
   
   <url>
     <loc>https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/tags/JAVA-SOCKET/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -342,13 +342,6 @@
 
   
   <url>
-    <loc>https://blog.buercheng.space/categories/CSS/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.buercheng.space/categories/java/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -356,7 +349,7 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/categories/CSS/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://blog.buercheng.space/categories/CSS/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -370,7 +363,7 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/categories/Java-Web/</loc>
+    <loc>https://blog.buercheng.space/categories/java/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -384,14 +377,7 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/categories/java/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://blog.buercheng.space/categories/CSS/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -405,7 +391,14 @@
   </url>
   
   <url>
-    <loc>https://blog.buercheng.space/categories/%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/categories/Java-Web/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -413,6 +406,13 @@
   
   <url>
     <loc>https://blog.buercheng.space/categories/IDEA/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.buercheng.space/categories/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
