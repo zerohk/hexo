@@ -811,13 +811,15 @@ snackbar:
 # prefetch (預加載)
 instantpage: false
 
+
 artitalk:
-  appId: 8qFJMnPVAcMbJmouK5RFGeTG-MdYXbMMI
-  appKey: UuX8qvGYuKRn5rUQ8aazhtJi
-  option:
-    bgImg: 
-    shuoPla: 发条说说~
-    avatarPla: /pics/avatar.jpg
+    enable: true
+    appId: 8qFJMnPVAcMbJmouK5RFGeTG-MdYXbMMI
+    appKey: UuX8qvGYuKRn5rUQ8aazhtJi
+    path: /shuoshuo
+    js: https://cdn.jsdelivr.net/npm/artitalk
+    option:
+    front_matter:
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
