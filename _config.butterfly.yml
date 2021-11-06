@@ -12,12 +12,12 @@ menu:
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
    影音书籍 || fas fa-icons:
-     - 影视 || /movies/ || fas fa-video
-     - 阅读 || /books/ || fas fa-book-open
-     - 相册 || /gallery/ || fas fa-images
+      影视: /movies/ || fas fa-video
+      阅读: /books/ || fas fa-book-open
+      相册: /gallery/ || fas fa-images
    链接: /link/ || fas fa-link
    碎碎念 || fas fa-quote-right :
-      - 说说 || /shuoshuo || fas fa-comment-alt
+      说说: /shuoshuo || fas fa-comment-alt
    关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -816,7 +816,7 @@ artitalk:
     enable: true
     appId: 8qFJMnPVAcMbJmouK5RFGeTG-MdYXbMMI
     appKey: UuX8qvGYuKRn5rUQ8aazhtJi
-    path: /shuoshuo
+    path: shuoshuo
     js: https://cdn.jsdelivr.net/npm/artitalk
     option:
     front_matter:
@@ -952,4 +952,4 @@ CDN:
   prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
-  artitalk: https://cdn.jsdelivr.net/npm/artitalk
+  # artitalk: https://cdn.jsdelivr.net/npm/artitalk
