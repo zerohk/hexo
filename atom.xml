@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2021-10-26T14:30:29.088Z</updated>
+  <updated>2021-12-08T03:34:06.784Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汇编笔记</title>
+    <link href="https://blog.buercheng.space/posts/3306631997/"/>
+    <id>https://blog.buercheng.space/posts/3306631997/</id>
+    <published>2021-12-08T03:25:31.000Z</published>
+    <updated>2021-12-08T03:34:06.784Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;h1 id=&quot;第1章-基础知识&quot;&gt;&lt;a href=&quot;#第1章-基础知识&quot; class=&quot;headerlink&quot; title=&quot;第1章 基础知识&quot;&gt;&lt;/a&gt;第1章</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>WolfRam Language</title>
