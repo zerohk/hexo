@@ -28,3 +28,6 @@ katex:
 aplayer:
 highlight_shrink:
 ---
+
+<meta name="referrer" content="no-referrer"/>
+
