@@ -746,3 +746,21 @@ FROM employees;
 ```
 
 ![image-20210426225839842](https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210426225839842.png)
+
+# 时间函数
+
+## DATE_ADD函数
+
+### 定义和使用
+
+MySQL的DATE_ADD()函数用于在指定的日期加上特定的时间间隔或日期间隔，得到一个新的日期。
+
+### 语法
+
+```mysql
+DATE_ADD(date,INTERVAL value addUnit)
+```
+
+- `date`:给定的DATE类型的日期参数；
+- `value`:时间间隔，可以是正数也可以是负数；
+- `addUnit`:可选以下值（常用的）：`SECOND`、`MINUTE`、`HOUR`、`DAY`、`MONTH`、`YEAR`
