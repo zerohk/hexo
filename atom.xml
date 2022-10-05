@@ -487,9 +487,9 @@
     
     <category term="github" scheme="https://blog.buercheng.space/tags/github/"/>
     
-    <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="hexo" scheme="https://blog.buercheng.space/tags/hexo/"/>
+    
+    <category term="博客" scheme="https://blog.buercheng.space/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="vercel" scheme="https://blog.buercheng.space/tags/vercel/"/>
     
