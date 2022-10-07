@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>calculus-sc1801</title>
+      <link href="/posts/2478547538/"/>
+      <url>/posts/2478547538/</url>
+      
+        <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"/><h1 id="课程大纲"><a href="#课程大纲" class="headerlink" title="课程大纲"></a>课程大纲</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="课程概览"><a href="#课程概览" class="headerlink" title="课程概览"></a>课程概览</h3><p>课程包括的话题：</p><ul><li>Concepts of Function, Limits and Continuity 函数，极限，连续性的概念</li><li>Differentiation Rules, Application to Graphing, Rates, Approximations, and Extremum Problems 微分规则，图形应用，比率，近似和极值问题</li><li>Definite and Indefinite Integration 定积分和不定积分</li><li>The Fundamental Theorem of Calculus 微积分基本定理</li><li>Applications to Geometry: Area, Volume, and Arc Length 几何应用：面积，体积和弧长</li><li>Applications to Science: Average Values, Work, and Probability 科学应用：平均值，功和概率</li><li>Techniques of Integration 积分的技巧</li><li>Approximation of Definite Integrals, Improper Integrals, and L’Hôspital’s Rule 定积分的近似值，瑕积分，洛必达法则</li></ul><h2 id="课程目标"><a href="#课程目标" class="headerlink" title="课程目标"></a>课程目标</h2><p>完成此门课程后，应该对单变量微积分的基本概念和一系列技能有清晰的理解，能够有效地使用这些概念。</p><p>基础的概念如下：</p><ol><li>导数(Derivative)（变化率），计算为比率的极限；</li><li>积分( Integral)（和），计算为黎曼和(Riemann sum)的极限。</li></ol><p>需要拥有的能力：</p><ul><li>Use both the limit definition and rules of differentiation to differentiate functions.</li><li>使用极限定义和微分规则来区分函数。</li><li>Sketch the graph of a function using asymptotes, critical points, the derivative test for increasing/decreasing functions, and concavity.</li><li>使用渐近线，临界点，增、减函数的导数测试和凹度绘制函数图形。</li><li>Apply differentiation to solve applied max/min problems.</li><li>应用微分解决给定的最大、最小值问题。</li><li>Apply differentiation to solve related rates problems.</li><li>应用微分解决相应的变化率问题。</li><li>Evaluate integrals both by using Riemann sums and by using the Fundamental Theorem of Calculus.</li><li>通过使用黎曼和和微积分的基本定理来计算定积分的值。</li><li>Apply integration to compute arc lengths, volumes of revolution and surface areas of revolution.</li><li>应用积分来计算弧长，旋转体积和旋转表面积。</li><li>Evaluate integrals using advanced techniques of integration, such as inverse substitution, partial fractions and integration by parts.</li><li>使用高级定积分技巧来计算定积分，比如逆代换，部分分式积分，部分积分。</li><li>Use L’Hospital’s rule to evaluate certain indefinite forms.</li><li>利用洛必达法则来计算某些不定型。</li><li>Determine convergence/divergence of improper integrals and evaluate convergent improper integrals.</li><li>确定瑕积分的收敛或发散，然后计算收敛的瑕积分。</li><li>Determine the convergence/divergence of an infinite series and find the Taylor series expansion of a function near a point.</li><li>确定无穷级数的收敛或发散，并找到一个点附近函数的泰勒级数展开。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MIT </tag>
+            
+            <tag> calculus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小沈同学的随笔日记</title>
       <link href="/posts/2168249802/"/>
       <url>/posts/2168249802/</url>
@@ -22,8 +51,6 @@
             
             <tag> 日记 </tag>
             
-            <tag> 随想 </tag>
-            
             <tag> 生活 </tag>
             
         </tags>
@@ -40,6 +67,22 @@
         <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"/>]]></content>
       
       
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Windows </tag>
+            
+            <tag> 自动任务 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -53,6 +96,22 @@
         <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"/><h1 id="第1章-基础知识"><a href="#第1章-基础知识" class="headerlink" title="第1章 基础知识"></a>第1章 基础知识</h1><h2 id="1-1-机器语言"><a href="#1-1-机器语言" class="headerlink" title="1.1 机器语言"></a>1.1 机器语言</h2><ol><li><strong>机器语言</strong>：是机器指令的集合。机器指令展开来讲就是一台机器可以正确执行的命令。电子计算机的机器指令是一列二进制数字。计算机将之转变为一列高低电平，以使计算机的电子器件受到驱动，进行运算。</li><li><strong>计算机</strong>：<ul><li>早期计算机：可以执行机器指令，进行运算的机器；</li><li>现代计算机：在我们常用的PC机中，有一个芯片（CPU，Central Processing Unit,中央处理单元，是一种微处理器）来完成上面所说的早期计算机的功能 ；现代计算机是指由CPU和其他受CPU直接或间接控制的芯片、器件、设备组成的计算机系统。<h2 id="1-3-汇编语言的组成"><a href="#1-3-汇编语言的组成" class="headerlink" title="1.3 汇编语言的组成"></a>1.3 汇编语言的组成</h2>汇编语言发展至今，有以下3类指令组成：</li></ul></li><li>汇编指令：机器码的助记符，有对应的机器码；</li><li>伪指令：没有对应的机器码，由编译器执行，计算机并不执行；</li><li>其它符号：如+、-、*、/ 等，由编译器识别，没有对应的机器码。</li></ol><p><strong>汇编语言的核心是汇编指令，它决定了汇编语言的特性。</strong></p><h2 id="1-4-存储器"><a href="#1-4-存储器" class="headerlink" title="1.4 存储器"></a>1.4 存储器</h2><p>存储器：也就是我们平常说的内存。CPU是计算机的核心部件，它控制整个计算机的运作并进行运算。要想让一个CPU工作，就必须向它提供指令和数据。指令和数据就存储在内存当中。磁盘不同于内存，磁盘中的数据或程序不读到内存中，就无法被CPU使用。</p><h2 id="1-5-指令和数据"><a href="#1-5-指令和数据" class="headerlink" title="1.5 指令和数据"></a>1.5 指令和数据</h2><p>指令和数据是应用上的概念。在内存和磁盘上，指令和数据没有任何区别，<strong>都是二进制信息</strong>。CPU在工作时，把有的信息看作指令，有的信息看作数据。只是为同样的信息赋予了不同的意义。</p><h2 id="1-6-存储单元"><a href="#1-6-存储单元" class="headerlink" title="1.6 存储单元"></a>1.6 存储单元</h2><p>存储器（内存）被划分为若干个存储单元，每个存储单元从0开始编号。<br>电子计算机的最小信息单位是bit（比特），也就是一个二进制位。8个bit组成一个Byte（字节）。<br>微型机的存储器（内存）的存储单元可以存储一个Byte，也就是8个二进制位。一个存储器有128个存储单元，那么它可以存储128Byte。<br>微型存储器的容量是以Byte为最小单位来计算的。对于拥有128个存储单元的存储器来说，我们可以说它的<strong>存储容量</strong>是128字节。</p><blockquote><p>1024B = 1MB,1024MB = 1GB, 1024GB = 1TB</p></blockquote><h2 id="1-7-CPU对存储器的读写"><a href="#1-7-CPU对存储器的读写" class="headerlink" title="1.7 CPU对存储器的读写"></a>1.7 CPU对存储器的读写</h2><p>存储单元在存储器中的编号可以看作是其在存储器中的地址。<br>CPU要从内存中读取数据，首先要指定存储单元的地址。另外，在微机中，不止存储器一种器件，因此CPU在读写数据时，还要指明要对哪一个器件进行操作，进行什么操作（是读数据还是写数据）。</p><p>因此CPU想要读写数据，必须和外部器件（标准说法是<strong>芯片</strong>）进行下面3类信息的交互：</p><ol><li>存储单元的地址（地址信息）；</li><li>器件的选择，读或写的命令（控制信息）；</li><li>读或写的数据（数据信息）。</li></ol><p>那么CPU是通过什么将地址、数据和控制信息传到存储器芯片中的呢？<br>电子计算机能处理、传输的信息都是电信号，电信号当然要用导线传送。<br>计算机中有专门连接CPU和其他芯片的导线，通常称为总线。<br><strong>总线</strong>：从物理上来讲，是一根根导线的集合；从逻辑上，根据传送信息的不同，又可以分为3类：<strong>地址总线、控制总线和数据总线</strong>。</p><p>如何命令计算机进行数据的读写呢？<br>要让一个计算机或微处理器工作，应向它输入能够驱动它进行工作的电平信息(机器码)。</p><h2 id="1-8-地址总线"><a href="#1-8-地址总线" class="headerlink" title="1.8 地址总线"></a>1.8 地址总线</h2><p>CPU通过地址总线来指定存储器单元，可见地址总线能传送多少个信息，CPU就可以对多少个存储单元进行<strong>寻址</strong>。</p><blockquote><p>现假设，一个CPU有10根地址总线，让我们来看一下它的寻址情况。我们知道，在电子计算机中，一根导线可以传送的稳定状态只有两种，高电平或是低电平。用二进制表示就是1或0 ,10 根导线可以传送10 位二进制数据。而10 位二进制数可以表示多少个不同的数据呢？ 2的10次方个。最小数为0,最大数为1023。</p></blockquote><p><strong>一个CPU有N根地址总线，则称这个CPU地址总线的宽度为N。这样的CPU最多可以寻址2<sup>N</sup>个内存单元。</strong></p><h2 id="1-9-数据总线"><a href="#1-9-数据总线" class="headerlink" title="1.9 数据总线"></a>1.9 数据总线</h2><p>CPU与内存或其他器件之间的数据传送是通过数据总线来进行的。数据总线的宽度决定了CPU和外界的数据传送速度。8根数据总线一次可传送8个二进制位，即一个字节。</p><h2 id="1-10-控制总线"><a href="#1-10-控制总线" class="headerlink" title="1.10 控制总线"></a>1.10 控制总线</h2><p>CPU对<strong>外部器件</strong>的控制是通过控制总线来进行的。在这里控制总线是个总称，控制总线是一些控制线的集合。有多少根控制总线，就意味着CPU提供了多少对外部器件的控制。控制总线的宽度决定了CPU对外部器件的控制能力。</p><h2 id="1-11-内存地址空间（概述）"><a href="#1-11-内存地址空间（概述）" class="headerlink" title="1.11 内存地址空间（概述）"></a>1.11 内存地址空间（概述）</h2><p>内存地址空间：举例，一个CPU的地址总线宽度为10，那么可以寻址1024个内存单元，这1024个可寻到的内存单元就构成该CPU的内存地址空间。</p><h2 id="1-12-主板"><a href="#1-12-主板" class="headerlink" title="1.12 主板"></a>1.12 主板</h2><p>在每一台PC中，都有一个主板，主板上有核心器件和一些主要器件，这些器件通过总线（地址总线、数据总线、控制总线）相连，这些器件有CPU，存储器，外围芯片组，扩展插槽等。扩展插槽上一般插有RAM内存条和各类接口卡。</p><h2 id="1-13-接口卡"><a href="#1-13-接口卡" class="headerlink" title="1.13 接口卡"></a>1.13 接口卡</h2><p><strong>计算机系统中，所有可用程序控制其工作的设备，必须受到CPU的控制</strong>。<strong>CPU对外部设备都不能直接控制</strong>，如显示器、音箱、打印机等。直接控制这些设备进行工作的是插在扩展插槽上的接口卡。扩展插槽通过总线和CPU相连，所以接口卡也通过总线同CPU相连。CPU可以直接控制这些接口卡，从而实现CPU对外设的间接控制。</p><h2 id="1-14-各类存储器芯片"><a href="#1-14-各类存储器芯片" class="headerlink" title="1.14 各类存储器芯片"></a>1.14 各类存储器芯片</h2><p>一台PC机中，装有多个存储器芯片，从物理连接上看，它们是独立的、不同的器件。<br>从读写属性上，可分为：</p><ol><li>随机存储器（RAM，random access memory，也叫随机存取存储器）：可读可写，但必须带电存储，关机后存储的内容丢失；</li><li>只读存储器（ROM，Read-only memory）：只能读取不能写入，关机后其中的内容不丢失。</li></ol><p>从功能和连接上又能分为以下几类：</p><ul><li><p>随机存储器：用于存放供CPU使用的绝大部分程序和数据，<strong>主随机存储器</strong>一般由两个位置上的RAM组成：<strong>装在主板上的RAM和插在扩展插槽上RAM</strong>。</p></li><li><p>装有BIOS的ROM：BIOS是由主板和各类接口卡（如显卡、网卡）厂商提供的系统软件。可通过它利用该硬件进行最基本的输入输出。在主板和某些接口卡上插有存储相应BIOS的ROM。</p></li><li><p>接口卡上的RAM：某些接口卡需要对大批量输入、输出数据进行暂时存储，在其上装有RAM。最典型的是显示卡上的RAM, 一般称为显存。显示卡随时将显存中的数据向显示器上输出。换句话说，我们将需要显示的内容写入显存，就会出现在显示器上。<br><img src="http://pic.buercheng.space/imagesPC%E6%9C%BA%E4%B8%AD%E5%90%84%E7%B1%BB%E5%AD%98%E5%82%A8%E5%99%A8%E7%9A%84%E9%80%BB%E8%BE%91%E8%BF%9E%E6%8E%A5.png" alt="PC机中各类存储器的逻辑连接"></p><h2 id="1-15-内存地址空间"><a href="#1-15-内存地址空间" class="headerlink" title="1.15 内存地址空间"></a>1.15 内存地址空间</h2><p>上述存储器，在物理上是独立的器件，但是在以下两点上相同：</p></li><li><p>都和CPU的总线相连；</p></li><li><p>CPU对他们进行读或写的时候都通过控制总线发出内存读写命令。</p></li></ul><p>也就是说，CPU在操控他们的时候，把它们当作内存来对待，把它们总的看作一个由若干存储单元组成的逻辑存储器，这个逻辑存储器就是我们说的内存地址空间。<br><strong>在汇编这门课中，我们面对的就是内存地址空间。</strong><br><img src="http://pic.buercheng.space/images%E5%B0%86%E5%90%84%E7%B1%BB%E5%AD%98%E5%82%A8%E5%99%A8%E7%9C%8B%E4%BD%9C%E4%B8%80%E4%B8%AA%E9%80%BB%E8%BE%91%E5%AD%98%E5%82%A8%E5%99%A8.png" alt="将各类存储器看作一个逻辑存储器"></p><h1 id="第2章-寄存器"><a href="#第2章-寄存器" class="headerlink" title="第2章 寄存器"></a>第2章 寄存器</h1><p>一个典型的CPU由<strong>运算器、控制器、寄存器（CPU工作原理）</strong>等器件构成，这些器件靠内部总线连接。</p><ul><li>运算器：进行信息处理；</li><li>控制器：控制各种器件进行工作；</li><li>寄存器：进行信息存储；</li><li>内部总线：连接各种器件，在它们之间进行数据的传送。</li></ul><p>对于汇编程序员来说，<strong>寄存器是CPU中主要的部件</strong>。因为寄存器是CPU中程序员可以用指令读写的部件。程序员通过改变各种寄存器中的内容来实现对CPU的控制。</p><p>不同的CPU，寄存器的结构、个数是不同的。8086CPU有14个寄存器：<strong>AX、BX、CX、DX、SI、DI、SP、BP、IP、CS、SSDS、ES、PSW</strong>。</p><h2 id="2-1-通用寄存器"><a href="#2-1-通用寄存器" class="headerlink" title="2.1 通用寄存器"></a>2.1 通用寄存器</h2><p>8086CPU的所有寄存器都是16位的，可以存放两个字节。AX、BX、CX、DX这4个寄存器通常用来存放一般性的，被称为通用寄存器。<br><img src="http://pic.buercheng.space/images16%E4%BD%8D%E5%AF%84%E5%AD%98%E5%99%A8%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png" alt="16位寄存器的逻辑结构"><br>为了兼容8位寄存器，8086CPU的AX，BX,CX,DX可以分为两个可独立使用的8位寄存器来用：</p><ul><li>AX可分为AH和AL；</li><li>BX可分为BH和BL；</li><li>CX可分为CH和CL；</li><li>DX可分为DH和DL。</li></ul><p>以AX为例。AX的低8位（0位~7位）构成了AL寄存器，高8位（8位到15位）构成了AH寄存器    。<br><img src="http://pic.buercheng.space/images16%E4%BD%8D%E5%AF%84%E5%AD%98%E5%99%A8%E5%88%86%E4%B8%BA%E4%B8%A4%E4%B8%AA8%E4%BD%8D%E5%AF%84%E5%AD%98%E5%99%A8.png" alt="16位寄存器分为两个8位寄存器"></p><p>出于对兼容性的考虑，8086CPU可以一次性处理以下两种尺寸的数据：</p><ul><li>字节：记为byte, —个字节由8个bit组成，可以存在8位寄存器中。</li><li>字：记为word, 一个字由两个字节组成，这两个字节分别称为这个字的高位字节和低位字节。</li></ul><p>AH和AL中的数据，既可以看成是一个字型数据的高8位和低8位，又可以看成是两个独立的字节型数据。</p><h2 id="2-3-几条汇编指令"><a href="#2-3-几条汇编指令" class="headerlink" title="2.3 几条汇编指令"></a>2.3 几条汇编指令</h2><ul><li><code>mov ax,bx</code>:将寄存器bx中的值送入ax；</li><li><code>add ax,bx</code>:将寄存器ax和bx的值相加并存入ax中。</li></ul><h2 id="2-4-物理地址"><a href="#2-4-物理地址" class="headerlink" title="2.4 物理地址"></a>2.4 物理地址</h2><p>CPU访问内存单元时，要给出内存单元的地址。所有的内存单元构成的存储空间是一个一维的线性空间，每一个内存单元在这个空间中都有唯一的地址，我们将这个唯一的地址称为物理地址。</p><p>CPU通过地址总线送入存储器的，必须是一个内存单元的物理地址。在CPU向地址总线上发出物理地址之前，必须要在内部先形成这个物理地址。不同的CPU可以有不同的形成物理地址的方式。</p><h2 id="2-5-16位结构的CPU"><a href="#2-5-16位结构的CPU" class="headerlink" title="2.5 16位结构的CPU"></a>2.5 16位结构的CPU</h2><p>什么是16位结构的CPU呢？<br>1 6 位结构( 1 6 位机、字长为1 6 位等常见说法，与1 6 位结构的含义相同)描述了一个CPU具有下面几方面的结构特性：</p><ul><li>运算器一次最多可以处理16位的数据；</li><li>寄存器的最大宽度为16位；</li><li>寄存器和运算器之间的通路为16位。</li></ul><p>8 0 8 6 是1 6 位结构的C P U , 这也就是说，在8 0 8 6 内部，能够一次性处理、传输、暂时存储的信息的最大长度是16位的。内存单元的地址在送上地址总线之前，必须在CPU中处理、传输、暂时存放，对于16位CPU,能一次性处理、传输、暂时存储16位的地址。</p><h2 id="2-6-8086CPU给出物理地址的方法"><a href="#2-6-8086CPU给出物理地址的方法" class="headerlink" title="2.6 8086CPU给出物理地址的方法"></a>2.6 8086CPU给出物理地址的方法</h2><p>8 0 8 6 CP U有2 0 位地址总线，可以传送2 0 位地址，达到1 MB寻址能力。8086CPU又是1 6 位结构，在内部一次性处理、传输、暂时存储的地址为1 6 位。从8 0 8 6 C P U 的内部结构来看，如果将地址从内部简单地发出，那么它只能送出16位的地址，表现出的寻址能力只有64KB。</p><p><strong>8086CPU采用一种在内部用两个16位地址合成的方法来形成一个20位的物理地址。</strong><br> 当8086CPU要读写内存时：</p><ol><li>CPU中的相关部件提供两个16位的地址，一个称为段地址，一个称为偏移地址；</li><li>段地址和偏移地址通过内部总线送入一个叫作地址加法器的部件；</li><li>地址加法器将两个16位地址合成一个20位的物理地址；</li><li>地址加法器将20位的物理地址通过内部总线送入输入输出控制电路；</li><li>输入输出控制电路将20位的物理地址送入地址总线；</li><li>20位物理地址被地址总线送入存储器。</li></ol><p><img src="http://pic.buercheng.space/images8086CPU%E7%9B%B8%E5%85%B3%E9%83%A8%E4%BB%B6%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png" alt="8086CPU相关部件的逻辑结构"></p><p>地址加法器采用<strong>物理地址= 段地址x16+偏移地址</strong>的方法用段地址和偏移地址形成物理地址。</p><h2 id="2-8-段的概念"><a href="#2-8-段的概念" class="headerlink" title="2.8 段的概念"></a>2.8 段的概念</h2><p>内存并没有分段，段的划分来自于C P U , 由于8 0 8 6 C P U 用“基础地址(段地址[SA]x16）+偏移地址[EA]=物理地址”的方式给出内存单元的物理地址，使得我们可以用分段的方式来管理内存。</p><p>以后，在编程时可以根据需要，将若干地址连续的内存单元看作一个段，用段地址X16定位段的起始地址（基础地址），用偏移地址定位段中的内存单元。<br>有两点需要注意：<strong>段地址X16必然是16的倍数，所以一个段的起始地址也一定是16的倍数；偏移地址为16位，16位地址的寻址能力为64KB,所以一个段的长度最大为64KB。</strong></p><p>CPU访问内存单元时，必须向内存提供内存单元的物理地址。</p><p><strong>CPU可以用不同的段地址和偏移地址形成同一个物理地址。</strong></p><p>“数据在21F60H内存单元中。”这句话对于8086PC机一般不这样讲，取而代之的是两种类似的说法：<strong>①数据存在内存2000:1F60单元中；②数据存在内存的2000H段中的1F60H单元中。这两种描述都表示“数据在内存21F60H单元中”。</strong></p><p>可以根据需要，将地址连续、起始地址为16的倍数的一组内存单元定义为一个段。</p><h2 id="2-9-段寄存器"><a href="#2-9-段寄存器" class="headerlink" title="2.9 段寄存器"></a>2.9 段寄存器</h2><p>段寄存器：存放段地址的寄存器。8086CPU有四个段寄存器：CS、DS、SS、ES。</p><h2 id="2-10-CS和IP"><a href="#2-10-CS和IP" class="headerlink" title="2.10 CS和IP"></a>2.10 CS和IP</h2><p>CS和IP是8086CPU最关键的两个寄存器，它们指示了CPU当前要读取的指令的地址。CS为代码段寄存器，IP为指令指针寄存器。</p><p>在8086PC机中，任意时刻，设CS中的内容为M，IP中的内容为N，8086CPU将从内存M x 16 + N开始，读取一条指令并执行。</p><p>也可以这样表述：8086机中，任意时刻，CPU将CS:1P指向的内容当作指令执行。</p><p>8086CPU工作过程简述：</p><ol><li>从CS：IP指向的内存单元读取指令，读取的指令进入指令缓冲器；</li><li>IP= IP+所读取的指令长度，从而指向下一条指令；</li><li>执行指令。转到1，重复这个过程。</li></ol><p>在8086CPU加电启动或复位后(即CPU刚开始工作时)CS和IP被设置为CS=FFFFH, IP=0000H,即在8086PC机刚启动时，CPU从内存FFFF0H单元中读取指令执行，FFFF0H单元中的指令是8086PC机开机后执行的第一条指令。</p><p>CPU根据什么将内存中的信息看作指令？</p><blockquote><p>CPU将CS:IP指向的内存单元中的内容看作指令</p></blockquote><h2 id="2-11-修改CS、IP的指令"><a href="#2-11-修改CS、IP的指令" class="headerlink" title="2.11 修改CS、IP的指令"></a>2.11 修改CS、IP的指令</h2><p>在CPU中，程序员能够用指令读写的部件只有寄存器，程序员可以通过改变寄存器中的内容实现对CPU 的控制。CPU 从何处执行指令是由CS 、IP 中的内容决定的，程序员可以通过改变CS、IP中的内容来控制CPU执行目标指令。</p><p>我们如何改变CS、IP的值呢？<br>能够改变CS、IP的内容的指令被统称为转移指令。<br>jmp指令可以修改CS、IP的值。<br><code>JMP 段地址:偏移地址</code>：能用指令中给出的段地址、偏移地址分别修改CS、IP的值。<br><code>JMP 某一合法寄存器名字</code>:仅修改IP的值。</p><blockquote><p><code>JMP ax</code>:将IP的值改为ax中的值，相当于执行了：<code>MOV IP,ax</code></p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 汇编 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> 汇编 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -66,6 +125,24 @@
         <content type="html"><![CDATA[<h1 id="1-基本算术运算"><a href="#1-基本算术运算" class="headerlink" title="1. 基本算术运算"></a>1. 基本算术运算</h1><p>Wolfram Language支持基本的算术运算：+、-、*、/、^。直接输入公式就可以计算了，在电脑上可以使用shift+enter得到结果。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262221617.png" alt="image-20211017203905618"></p><blockquote><p>注意：</p><ol><li><p>输入一个数字，然后添加一个空格，再输另外一个数字，可以在两个数字之间添加×号。</p><p> <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262221392.gif" alt="动画"></p></li><li><p>两个整数做除法，不能整除时，会显示分数；如果想要得到小数形式，可以在被除数和除数后面加上小数点。</p><p> <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262221974.png" alt="image-20211017204756827"></p></li><li><p>当0作除数时，会得到无穷大的符号表示。</p><p> <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222419.png" alt="image-20211017205650653"></p></li></ol></blockquote><h1 id="2-函数"><a href="#2-函数" class="headerlink" title="2. 函数"></a>2. 函数</h1><p>当你输入2+2的时候，Wolfram Language会将它理解为Plus[2,2]。Plus就是一个函数。Wolfram Language内建超过了5000个函数。</p><p>所有的函数名称都以大写字母开头，用方括号来将参数括起来。</p><p>函数举例：</p><ul><li><p>Plus[]:表示项的和。Plus[]=0;Plus[x]=x.</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222270.png" alt="image-20211019195153072"></p></li><li><p>Subtrac[]:表示项的差,Sub[x,y]等价于x+(-1) * y,<em>x</em>-<em>y</em> 在输入时被转换为 <em>x</em>+(-1*<em>y</em>)。Subtract[]函数必须有两个参数，且只能有两个参数。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222440.png" alt="image-20211019195853954"></p></li><li><p>Times[]:表示项的乘积。Times[]=1;Times[x]=x。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222611.png" alt="image-20211019200214330"></p></li><li><p>Divide[]:表示项的除法，等价于x * y^-1，在输入中x/y被转换成x * y^-1。Divide[]函数必须有两个参数，且只能为两个参数。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222636.png" alt="image-20211019200722426"></p></li><li><p>Power[]:Power[x,y]给出x的y次幂。Power[x,y,z]等价于Power[x,Power[y,z]]。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222496.png" alt="image-20211019201400169"></p></li><li><p>Max[]:Max[x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>…]给出x<sub>i</sub>中的最大值；Max[{x<sub>1</sub>,x<sub>2</sub>…},{y<sub>1</sub>}…]给出所有列表中的最大元素。Max[]返回-Infinity。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222668.png" alt="image-20211019202032454"></p></li><li><p>Min[]:Min[x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>…]给出x<sub>i</sub>中的最小值；Min[{x<sub>1</sub>,x<sub>2</sub>…},{y<sub>1</sub>}…]给出所有列表中的最小元素。Min[]会给出Infinity。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262222991.png" alt="image-20211019202545548"></p></li><li><p>RandomInteger[]:</p><ul><li><p>RandomInteger[{i<sub>min</sub>,i<sub>max</sub>}]:给出{i<sub>min</sub>,i<sub>max</sub>}范围内的伪随机整数。</p></li><li><p>RandomInteger[i<sub>max</sub>]：给出{0…i<sub>max</sub>}范围内的伪随机整数。</p></li><li><p>RandomInteger[]:伪随机的给出0或1。</p></li><li><p>RandomInteger[range,n]:给出n个伪随机数组成的列表。随机数大小在0-range之间。</p></li><li><p>RandomInteger[range,{n<sub>1</sub>,n<sub>2</sub>…}]:给出由伪随机整数组成的n<sub>1</sub>×n<sub>2</sub>×…的数组。随机数大小在0-range之间。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223218.png" alt="image-20211019204030191"></p></li></ul></li></ul><h1 id="3-列表"><a href="#3-列表" class="headerlink" title="3. 列表"></a>3. 列表</h1><p>List(列表)是Wolfram Language里面用来表示元素集合的基础方式。{1,2,3}是一个数字列表，它本身不能干任何事，只是存储元素的一种方式，当你输入一个列表时，会原样的输出。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223968.png" alt="image-20211019205023158"></p><ul><li><p>ListPlot[]:用来将数字列表绘制成图像的函数。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223759.png" alt="image-20211019205353209"></p></li><li><p>Range[]:一个可以产生数字列表的函数。</p><ul><li><p>Range[i<sub>max</sub>]:生成列表{1,2,…i<sub>max</sub>}。</p></li><li><p>Range[i<sub>min</sub>,i<sub>max</sub>]:生成列表{i<sub>min</sub>…i<sub>max</sub>}。</p><ul><li>Range[-1,3]:生成列表{-1,0,1,2,3}；</li><li>Range[2,-2]:生成列表{};</li><li>Range[2,-2,-1]生成列表{2,1,0,-1,-2};</li></ul></li><li><p>Range[i<sub>min</sub>,i<sub>max</sub>,d]:以步长d生成列表。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223603.png" alt="image-20211019210339879"></p></li></ul></li><li><p>生成一个数字列表，然后把它绘制出来：</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223637.png" alt="image-20211019210448596"></p></li><li><p>Reverse[]:可以将列表中的元素顺序翻转过来。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223704.png" alt="image-20211019210720859"></p></li><li><p>Join[]:可以将多个列表连接成一个列表。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223561.png" alt="image-20211019211007834"></p></li></ul><blockquote><p>注意：{a,b,c}和{c,b,a}表示两个不同的列表。</p></blockquote><h1 id="4-展示列表"><a href="#4-展示列表" class="headerlink" title="4. 展示列表"></a>4. 展示列表</h1><p>ListPlot是一种展示或者可视化数字列表的方法。另外还有许多其他方法。</p><ul><li><p>ListLinePlot[]:可以绘制列表，并把每个点连起来形成折线图。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262223630.png" alt="image-20211019212243536"></p></li><li><p>BarChart[]:可以将列表转换成柱状图。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224589.png" alt="image-20211019212550316"></p></li><li><p>PieChart[]：可以将列表转换成饼图。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224711.png" alt="image-20211019212659486"></p></li><li><p>NumberLinePlot[]:在数轴上将列表数字绘制出来。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224893.png" alt="image-20211019213118011"></p></li><li><p>Column[]:将列表元素以垂直方向展示。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224233.png" alt="image-20211019215705890"></p></li><li><p>列表可以包含任何东西，包括图像。所以你可以把图像组合放到List里面。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224897.png" alt="image-20211019215857868"></p></li></ul><h1 id="5-对列表的操作"><a href="#5-对列表的操作" class="headerlink" title="5. 对列表的操作"></a>5. 对列表的操作</h1><p>Wolfram Language中有数千种函数可以对列表进行操作。</p><ol><li><p>可以对列表进行算术运算</p><ul><li><p>加法：</p><ul><li><p>列表+数字：直接将列表中每个数字加上该数字，得到新列表。“{}”:没有任何元素的list叫作null list或是empty list。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262224979.png" alt="image-20211019220724053"></p></li><li><p>列表+列表：列表的长度必须相同，依次将各个同一顺序的元素相加即可。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225292.png" alt="image-20211019220903399"></p></li></ul></li><li><p>减法：与加法一致</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225977.png" alt="image-20211019221024380"></p></li><li><p>乘法：</p><ul><li>列表*数字：各个元素与数字相乘得到新列表。</li><li>列表* 列表：相同顺序的元素相乘。</li></ul></li><li><p>除法：</p><ul><li>列表/数字：各个元素除以数字。</li><li>列表/列表：相同顺序元素相除。</li></ul></li><li><p>对列表求方：</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225755.png" alt="image-20211019221549242"></p></li></ul></li><li><p>其他函数</p><ul><li><p>Sort[]:可以对列表进行排序。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225545.png" alt="image-20211019221754349"></p></li><li><p>Length[]:返回列表的长度。</p></li><li><p>Total[]：返回列表所有元素相加的和。</p></li><li><p>Count[list,a]:返回元素a在list中出现的次数。</p></li><li><p>First[]：返回列表第一个元素。First[Sort[list]] = Min[list]</p></li><li><p>Last[]：返回列表最后一个元素。</p></li><li><p>Part[list,n]:返回列表特定位置的元素。</p></li><li><p>IntegerDigits[]:可以将数字各个位拆成列表的一个元素。</p><p>  <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225112.png" alt="image-20211019222209227"></p></li><li><p>IntegerDigits[number,base]:IntegerDigits[number]返回的是以10为基数的数字形式，base可以是任意值，返回的就是以base为基数的结果。</p></li><li><p>FromDigits[List[]]:IntegerDigits[]的反函数，返回列表中数字组成的整数。</p></li><li><p>Rest[list]:返回列表中除第一个外所有元素组成的列表。</p></li><li><p>Most[list]:返回列表中除最后一个元素外所有元素组成的列表。</p></li><li><p>Take[list,n]:返回从list第一个元素开始，到第指定个元素的列表。</p></li><li><p>Drop[list,n]:删掉list第一个元素到指定位元素。</p></li></ul></li></ol><h1 id="6-创建表"><a href="#6-创建表" class="headerlink" title="6. 创建表"></a>6. 创建表</h1><p>我们可以直接使用{a,b,c..}的形式、使用Range函数、IntegerDigits函数来生成列表，但是一个更通用更灵活的方法是使用Table函数。</p><p>Table函数最简单的形式是：Table[number,times]:生成一个由times个number组成的列表。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225152.png" alt="image-20211026200146422"></p><p>也可以对列表进行重复:Table[list,times]:</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262225318.png" alt="image-20211026200330426"></p><p>当然，可以对任何对象进行重复:</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226228.png" alt="image-20211026200459300"></p><p>如果想要对不同的元素进行重复应该怎么做？这需要引入另一个变量，然后对该变量进行迭代。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226140.png" alt="image-20211026201711178"></p><p>利用Table函数生成前十个数的平方：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226982.png" alt="image-20211026201821697"></p><p>Table函数可以使用任何元素：</p><ol><li><p>生成连续长度的列表组成的表</p><p> <img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226840.png" alt="image-20211026202103149"></p></li><li><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226134.png" alt="image-20211026202311077"></p></li><li><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226833.png" alt="image-20211026202411537"></p></li></ol><p>Table[f[n],{n,3,5}]:表示n从3开始迭代到5：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262226273.png" alt="image-20211026202815333"></p><p>Table[f[n],{n,4,20,2}]:表示n从4开始以2的步长迭代到20：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227035.png" alt="image-20211026202951041"></p><p>Table总是会对输入的列表进行分开计算–在Table函数中使用RandomInteger函数时，可以看到这个过程：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227058.png" alt="image-20211026203626394"></p><p>生成了20个不同的伪随机数。</p><h1 id="7-颜色和格式"><a href="#7-颜色和格式" class="headerlink" title="7. 颜色和格式"></a>7. 颜色和格式</h1><p>WolfRam Language不仅仅可以处理数字，还可以处理颜色。我们可以使用名字来获得常用颜色。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227038.png" alt="image-20211026211855410"></p><p>创建一个颜色列表：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227296.png" alt="image-20211026212108391"></p><p>ColorNegate函数可以生成一种颜色的补充色：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227166.png" alt="image-20211026212713786"></p><p>Blend函数可以将<strong>列表中</strong>的颜色进行混合：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227292.png" alt="image-20211026212838660"></p><p>RGBColor[]函数可以通过指定红色，绿色，蓝色的值，来指定一个颜色，可取的值得范围为0到1.</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227245.png" alt="image-20211026213126077"></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227437.png" alt="image-20211026213606954"></p><p>有时候用hue(色调)来描述颜色，比直接用颜色的名字来描述比较方便。函数Hue就可以达到这个目的。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227934.png" alt="image-20211026214002652"></p><p>有时候，只想要一个随机的颜色，RandomColor函数可以做到这一点，该函数不需要任何参数即可执行。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262227866.png" alt="image-20211026214437390"></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262228628.png" alt="image-20211026214528761"></p><p>我们可以在任何地方使用颜色。比方，我们可以使用Style函数对输出的数字加上颜色。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262228610.png" alt="image-20211026214859538"></p><p>我们也可以在Style函数中指定输出的元素的大小：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262228992.png" alt="image-20211026215245833"></p><p>也可以同时指定元素的颜色和大小：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/202110262228642.png" alt="image-20211026215759550"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 其它编程语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> Wolfram </tag>
+            
+        </tags>
       
     </entry>
     
@@ -81,6 +158,8 @@
       
       <categories>
           
+          <category> 计算机 </category>
+          
           <category> 数据库 </category>
           
       </categories>
@@ -90,7 +169,11 @@
             
             <tag> MySQL </tag>
             
-            <tag> 数据库基础 </tag>
+            <tag> 后端 </tag>
+            
+            <tag> 数据库 </tag>
+            
+            <tag> MySQL常用函数 </tag>
             
         </tags>
       
@@ -108,18 +191,24 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
-          <category> 笔记 </category>
+          <category> Java </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java基础 </tag>
+            <tag> Java基础 </tag>
             
-            <tag> java笔记 </tag>
+            <tag> 后端 </tag>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> Java常用类 </tag>
             
         </tags>
       
@@ -135,10 +224,20 @@
         <content type="html"><![CDATA[<h1 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h1><p>LaTeX中能够出现的字符:</p><ul><li>26个英文字母，包括大小写；</li><li>0-9十个数字；</li><li>出现在input file的十六个标点符号：<ul><li><code>. , ; : ! ? ‘ ’ ( ) [ ] / - * @</code></li><li>注意单引号的输入方式：左边输入`，右边输入’；</li></ul></li><li>出现在command中的十个特殊符号：<ul><li><code>~ # $ % ^ &amp; _ \ &#123; &#125;</code></li><li>大多数LaTeX command会以 <code>\</code> 开头；</li></ul></li><li>用于数学公式的五个符号：<ul><li><code>+ = | &lt; &gt;</code></li><li><code>+</code>和 <code>=</code> 也能用于原始文本；</li></ul></li><li><code>&quot;</code>极少使用；</li><li>不可见字符如空格和回车，统一视作空格；<ul><li>输入的多个空格只视作一个空格；</li></ul></li><li>空行，只包括空格的行，会被LaTeX解译为一段的结束。</li></ul><h1 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h1><p>大多数LaTeX命令描述了文档的逻辑结构。要了解这些命令，必须知道LaTeX是怎样感知逻辑结构的。一个文档包含了不同大小的逻辑结构，先从非常熟悉的中间大小的结构–句子和段落谈起。</p><h2 id="句子和段落"><a href="#句子和段落" class="headerlink" title="句子和段落"></a>句子和段落</h2><p>简单的句子和段落对LaTeX来说是没有任何问题的：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">The ends of words and setences are marked by spaces. It doesn&#x27;t matter how many spaces     you</span><br><span class="line">type; one is as good as 100.</span><br><span class="line"></span><br><span class="line">One or more   blank lines denote the end of a paragraph.</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210119151439436.png" alt="sentences"></p><h3 id="引号（Quotation-Marks）"><a href="#引号（Quotation-Marks）" class="headerlink" title="引号（Quotation Marks）"></a>引号（Quotation Marks）</h3><p>LaTeX中有四个引号：左右单引号，左右双引号。双引号可以由两个单引号得到。</p><p>左单引号可以使用 `得到；右单引号可以使用’得到；</p><p>左双引号可以使用``得到；右双引号可以使用’’得到。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">单引号： 左单引号`，右单引号&#x27;</span><br><span class="line"></span><br><span class="line">双引号： 左双引号``，右双引号&#x27;&#x27;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210119152200905.png" alt="引号示例"></p><p>双引号后面跟着一个单引号，或者单引号后跟着一个双引号，碰到这种情况时，```，会让我们觉得模棱两可。解决的办法是，在两个符号之间添加一个命令 ,(反斜杠加一个逗号)。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">``\,`十一&#x27;还是`十二&#x27;\,&#x27;&#x27;他问道。</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210120093323050.png" alt="单双引号同时出现"></p><h3 id="破折号（Dashes）"><a href="#破折号（Dashes）" class="headerlink" title="破折号（Dashes）"></a>破折号（Dashes）</h3><p>可以使用三种大小的破折号：</p><ul><li>用于字母间的连字符，由一个 - 表示；</li><li>用于表示数字的范围，由两个 – 表示；</li><li>用于标点的长破折号，由三个 — 表示。</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">用于字母间的连字符：X-Ray</span><br><span class="line"></span><br><span class="line">用于表示数字范围：1--2</span><br><span class="line"></span><br><span class="line">用于表示标点的长破折号： 就像这样---</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210120094516722.png" alt="三种破折号"></p><p>注意：通常在破折号之前和之后都没有空格；破折号不是减号，减号只能用于数学公式中。</p><h3 id="句点（Period）后的空格"><a href="#句点（Period）后的空格" class="headerlink" title="句点（Period）后的空格"></a>句点（Period）后的空格</h3><p>排字工人通常会在一句话的结尾的句点（.）处添加一些额外的空格，来表示句子的结束。对于人类来说，这是很容易的，但是对于TeX来说，就不那么容易了。因为它无法判断一个句点是否位于句子的结尾。TeX简单的将一个未跟在大写字母后的句点当作句子的结尾。大多数情况下，这样是可行的。但是，当面对一些简写，例如”etc.”，这样处理就会产生问题。你可以在句点后使用 \space（\后跟空格或者是一行的结尾）命令告诉TeX，这个句点不是句子的结尾。反斜杠之后无论多少个空格都是可行的，但是不能在句点和反斜杠之间添加空格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">This is a sentence.This another sentence. % 未跟在大写字母后，也没有使用\space命令，表示是一句话的结尾</span><br><span class="line"></span><br><span class="line">This is a sentencE.you know.  % 跟在大写字母后，表示不是一句话的结尾</span><br><span class="line"></span><br><span class="line">There just one sentence.\ not two. % 使用了\space 命令，表示不是一句话的结尾</span><br><span class="line"></span><br><span class="line">There is another example.\</span><br><span class="line">hahaha</span><br><span class="line"></span><br><span class="line">test. \ oh</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210120102310753.png" alt="image-20210120102310753"></p><p>在某些情况下，即使句点是跟在大写字母后，也表示句子的结束。此情况下，你需要在句点前使用@命令告诉TeX句点位于句子的结尾。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">The Romans wrote I + I = II\@.Really!</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210120104404943.png" alt="image-20210120104404943"></p><p>如果表示句子结尾的句点后面跟了右圆括号，或者右引号（单、双），需要在圆括号或者引号后边添加多余的空格（使用\space命令)。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125; </span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">``Beans (lima,etc.)\  hava vitamin B\@.&#x27;&#x27;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20210120105509841.png" alt="image-20210120105509841"></p><p><code>? ! :</code>也需要在它们的后面添加额外的空格，除非它们跟在一个大写字母之后。\space和@和在句点中的使用方法是一致的。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 文档处理 </category>
+          
+      </categories>
+      
       
         <tags>
             
             <tag> LaTeX </tag>
+            
+            <tag> 文档格式 </tag>
             
         </tags>
       
@@ -158,12 +257,16 @@
           
           <category> 教程 </category>
           
+          <category> 下载 </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> 小鹅通 </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -181,7 +284,7 @@
       
       <categories>
           
-          <category> CSS </category>
+          <category> 计算机 </category>
           
           <category> 前端 </category>
           
@@ -190,9 +293,9 @@
       
         <tags>
             
-            <tag> 网络基础 </tag>
-            
             <tag> CSS </tag>
+            
+            <tag> 前端 </tag>
             
         </tags>
       
@@ -210,22 +313,20 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
           <category> 计算机网络 </category>
-          
-          <category> Java Web </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 网络基础 </tag>
+            <tag> 计算机网络 </tag>
             
-            <tag> java基础 </tag>
+            <tag> TCP </tag>
             
-            <tag> JAVA SOCKET </tag>
+            <tag> 套接字 </tag>
             
         </tags>
       
@@ -243,18 +344,18 @@
       
       <categories>
           
-          <category> 计算机网络 </category>
+          <category> 计算机 </category>
           
-          <category> Java Web </category>
+          <category> 前端 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 网络基础 </tag>
-            
             <tag> HTML </tag>
+            
+            <tag> 前端 </tag>
             
         </tags>
       
@@ -272,20 +373,18 @@
       
       <categories>
           
-          <category> 计算机网络 </category>
+          <category> 计算机 </category>
           
-          <category> Java Web </category>
+          <category> 计算机网络 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 网络基础 </tag>
+            <tag> 计算机网络 </tag>
             
-            <tag> java笔记 </tag>
-            
-            <tag> JAVA SOCKET </tag>
+            <tag> 套接字 </tag>
             
         </tags>
       
@@ -303,9 +402,9 @@
       
       <categories>
           
-          <category> 计算机网络 </category>
+          <category> 计算机 </category>
           
-          <category> Java Web </category>
+          <category> 计算机网络 </category>
           
       </categories>
       
@@ -314,9 +413,7 @@
             
             <tag> 网络基础 </tag>
             
-            <tag> java笔记 </tag>
-            
-            <tag> JAVA SOCKET </tag>
+            <tag> 计算机网络 </tag>
             
         </tags>
       
@@ -334,7 +431,9 @@
       
       <categories>
           
-          <category> 日志 </category>
+          <category> 生活 </category>
+          
+          <category> 感悟 </category>
           
       </categories>
       
@@ -342,6 +441,8 @@
         <tags>
             
             <tag> 生活 </tag>
+            
+            <tag> 感悟 </tag>
             
         </tags>
       
@@ -354,27 +455,29 @@
       <link href="/posts/3790347158/"/>
       <url>/posts/3790347158/</url>
       
-        <content type="html"><![CDATA[<h1 id="1-问题复现"><a href="#1-问题复现" class="headerlink" title="1.问题复现"></a>1.问题复现</h1><p>在<a href="https://hyperskill.org/">hyperskill</a>学习Java时，之前导入项目都好好的。由于换了个账号（可能是切换了账号的原因），打开学习项目时，提示如下，运行按钮是灰的，并且提示：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018191932.png"></p><p>按提示点击按钮后，出现<code>build failed</code>：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20200917144049894.png" alt="没有截图，网上找的图"></p><h1 id="2-解决方法"><a href="#2-解决方法" class="headerlink" title="2.解决方法"></a>2.解决方法</h1><p>按照这篇教程：<a href="https://blog.csdn.net/bhfswrcn/article/details/107116657">idea使用gradle进行build时报错 Cause: zip END header not found</a>的方法，修改了配置</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018193701.png" alt="修改配置"></p><p>重新构建，问题依然存在。</p><p>再次搜索了一下，按照这篇文章<a href="https://blog.csdn.net/haiquanquan123456/article/details/108642649">问题: gradle Cause: zip END header not found</a>试了一下，还是不行。</p><p>改变思路。</p><p>同时更改了<code>gradle-wrapper.properties</code>文件，配置如下：</p><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">distributionBase=GRADLE_USER_HOME</span><br><span class="line">distributionPath=wrapper/dists</span><br><span class="line">#把远程地址注释掉</span><br><span class="line">#distributionUrl=https\:<span class="comment">//services.gradle.org/distributions/gradle-6.6.1-bin.zip</span></span><br><span class="line">#使用本地的gradle包</span><br><span class="line">distributionUrl=<span class="keyword">file</span>:<span class="comment">///D:/IdeaProjects/gradle-6.7-bin.zip</span></span><br><span class="line">zipStoreBase=GRADLE_USER_HOME</span><br><span class="line">zipStorePath=wrapper/dists</span><br></pre></td></tr></table></figure><p>找到<code>File-&gt;settings-&gt;Build,Execution,Deployment-&gt;Build Tools</code>下的<code>gradle</code>选项，设置为图中所示即可</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195116.png" alt="gradle设置"></p><p>重新build：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018194314.png" alt="重新build中"></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195444.png" alt="build成功"></p><p>build成功后，右键运行一次后，即可开始写代码了。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195702.png" alt="右键运行"></p><p>这里不再是灰色了！</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20201018195813307.png" alt="ToolBar"></p><h1 id="3-小结"><a href="#3-小结" class="headerlink" title="3.小结"></a>3.小结</h1><p>中间踩过的其他坑就不详细记述了，我太难了。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-问题复现"><a href="#1-问题复现" class="headerlink" title="1.问题复现"></a>1.问题复现</h1><p>在<a href="https://hyperskill.org/">hyperskill</a>学习Java时，之前导入项目都好好的。由于换了个账号（可能是切换了账号的原因），打开学习项目时，提示如下，运行按钮是灰的，并且提示：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018191932.png"></p><p>按提示点击按钮后，出现<code>build failed</code>：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20200917144049894.png" alt="没有截图，网上找的图"></p><h1 id="2-解决方法"><a href="#2-解决方法" class="headerlink" title="2.解决方法"></a>2.解决方法</h1><p>按照这篇教程：<a href="https://blog.csdn.net/bhfswrcn/article/details/107116657">idea使用gradle进行build时报错 Cause: zip END header not found</a>的方法，修改了配置</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018193701.png" alt="修改配置"></p><p>重新构建，问题依然存在。</p><p>再次搜索了一下，按照这篇文章<a href="https://blog.csdn.net/haiquanquan123456/article/details/108642649">问题: gradle Cause: zip END header not found</a>试了一下，还是不行。</p><p>改变思路。</p><p>同时更改了<code>gradle-wrapper.properties</code>文件，配置如下：</p><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">distributionBase=GRADLE_USER_HOME</span><br><span class="line">distributionPath=wrapper/dists</span><br><span class="line">#把远程地址注释掉</span><br><span class="line">#distributionUrl=https\:<span class="comment">//services.gradle.org/distributions/gradle-6.6.1-bin.zip</span></span><br><span class="line">#使用本地的gradle包</span><br><span class="line">distributionUrl=<span class="keyword">file</span>:<span class="comment">///D:/IdeaProjects/gradle-6.7-bin.zip</span></span><br><span class="line">zipStoreBase=GRADLE_USER_HOME</span><br><span class="line">zipStorePath=wrapper/dists</span><br></pre></td></tr></table></figure><p>找到<code>File-&gt;settings-&gt;Build,Execution,Deployment-&gt;Build Tools</code>下的<code>gradle</code>选项，设置为图中所示即可</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195116.png" alt="gradle设置"></p><p>重新build：</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018194314.png" alt="重新build中"></p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195444.png" alt="build成功"></p><p>build成功后，右键运行一次后，即可开始写代码了。</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018195702.png" alt="右键运行"></p><p>这里不再是灰色了！</p><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/image-20201018195813307.png" alt="ToolBar"></p><h1 id="3-小结"><a href="#3-小结" class="headerlink" title="3.小结"></a>3.小结</h1><p>中间踩过的其他坑就不详细记述了，我太难了</p>]]></content>
       
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
-          <category> 教程 </category>
-          
-          <category> IDEA </category>
-          
-          <category> Gradle </category>
+          <category> JAVA </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java基础 </tag>
-            
             <tag> 编译错误 </tag>
+            
+            <tag> IDEA </tag>
+            
+            <tag> GRADLE </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -390,6 +493,28 @@
         <content type="html"><![CDATA[<h1 id="Collection集合"><a href="#Collection集合" class="headerlink" title="Collection集合"></a>Collection集合</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p><strong>集合</strong>：集合是java中提供的一种容器，可以用来存储多个数据。</p><p>集合与数组的区别</p><ul><li>数组的长度是固定的。集合的长度是可变的。</li><li>数组中存储的是同一类型的元素，可以存储基本数据类型值，也可以存储对象。集合存储的都是对象。而且对象的类型可以不一致。在开发中一般当对象多的时候，使用集合进行存储。</li></ul><p>java.util.Collection类是所有<strong>单列集合</strong>的根接口；</p><h2 id="集合框架"><a href="#集合框架" class="headerlink" title="集合框架"></a>集合框架</h2><p>JAVASE提供了满足各种需求的API，在使用这些API前，先了解其继承与接口操作架构，才能了解何时采用哪个类，以及类之间如何彼此合作，从而达到灵活应用。</p><h3 id="学习集合的目标"><a href="#学习集合的目标" class="headerlink" title="学习集合的目标"></a>学习集合的目标</h3><p>1.会使用集合存储数据</p><p>2.会遍历集合，把数据取出来</p><p>3.掌握每种集合的特性</p><h3 id="集合框架示意图"><a href="#集合框架示意图" class="headerlink" title="集合框架示意图"></a>集合框架示意图</h3><p>Java集合类主要是由两个根接口Collection和Map派生出来的。</p><img src="https://cdn.jsdelivr.net/gh/bu2cheng/picpic/imgs/集合框架图示.jpg"><p>Collection接口定义的是所有单列集合中共性的方法；所有单列集合都可以使用共性的方法；没有的带索引的方法。</p><ul><li>List接口：有序的集合（存储和取出元素顺序相同）；允许有重复的元素；有索引，可以使用普通的for循环遍历。</li><li>Set接口：不允许存储重复的元素；没有索引，不能使用普通的for循环遍历。TreeSet和HashSet是无序的集合（存储和取出元素顺序可能不同），LinkedHashSet是有序的集合。</li></ul><p>集合框架的学习方式：</p><p>学习顶层：学习顶层接口/抽象类中共性的方法，所有子类可以使用；</p><p>使用底层：顶层不是接口就是抽象类，无法创建对象使用，需要使用底层的子类创建对象使用。</p><h2 id="Collection集合常用功能-共性方法"><a href="#Collection集合常用功能-共性方法" class="headerlink" title="Collection集合常用功能 (共性方法)"></a>Collection集合常用功能 (共性方法)</h2><p>Collection是所有单列集合的父接口，因此在Collection中定义了单列集合(List和Set)通用的一些方法，这些方法可用于操作所有的单列集合。方法如下：</p><ul><li><code>public boolean add(E e)</code>：  把给定的对象添加到当前集合中 。</li><li><code>public void clear()</code> :清空集合中所有的元素。</li><li><code>public boolean remove(E e)</code>: 把给定的对象在当前集合中删除。</li><li><code>public boolean contains(E e)</code>: 判断当前集合中是否包含给定的对象。</li><li><code>public boolean isEmpty()</code>: 判断当前集合是否为空。</li><li><code>public int size()</code>: 返回集合中元素的个数。</li><li><code>public Object[] toArray()</code>: 把集合中的元素，存储到数组中。</li></ul><h3 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.shenzc.java.demo05;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestCollection</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//使用多态创建一个Collection对象</span></span><br><span class="line">        Collection&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="comment">//打印ArrayList对象，重写了toString方法</span></span><br><span class="line">        System.out.println(list);</span><br><span class="line">        <span class="comment">//isEmpty方法判断该集合是否为空，如果为空，则返回true；不为空，则返回false</span></span><br><span class="line">        System.out.println(list.isEmpty());</span><br><span class="line">        <span class="comment">//通过add方法向集合中添加元素，添加成功返回true，添加失败返回false。一般都是添加成功</span></span><br><span class="line">        list.add(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">        list.add(<span class="string">&quot;李四&quot;</span>);</span><br><span class="line">        list.add(<span class="string">&quot;王五&quot;</span>);</span><br><span class="line">        list.add(<span class="string">&quot;赵六&quot;</span>);</span><br><span class="line">        list.add(<span class="string">&quot;田七&quot;</span>);</span><br><span class="line">        <span class="comment">//添加完元素后再次判断集合是否为空</span></span><br><span class="line">        System.out.println(list.isEmpty());</span><br><span class="line">        <span class="comment">//用size方法得到集合中元素的个数</span></span><br><span class="line">        System.out.println(list.size());</span><br><span class="line">        System.out.println(list);</span><br><span class="line">        <span class="comment">//用remove方法删除集合中对应的元素，如果存在该元素则删除该元素返回true；否则返回false</span></span><br><span class="line">        list.remove(<span class="string">&quot;赵六&quot;</span>);</span><br><span class="line">        System.out.println(list);</span><br><span class="line">        System.out.println(list.remove(<span class="string">&quot;赵四&quot;</span>));</span><br><span class="line">        <span class="comment">//用cotains方法判断集合中是否包含指定元素，包含则返回true，否则返回false</span></span><br><span class="line">        System.out.println(list.contains(<span class="string">&quot;赵四&quot;</span>));</span><br><span class="line">        <span class="comment">//用toArray方法将集合转为对象数组</span></span><br><span class="line">        Object[] arr = list.toArray();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">            System.out.println(arr[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//用clear方法，清空集合</span></span><br><span class="line">        list.clear();</span><br><span class="line">        System.out.println(list.size());</span><br><span class="line">        System.out.println(list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Iterator接口"><a href="#Iterator接口" class="headerlink" title="Iterator接口"></a>Iterator接口</h2><h3 id="接口介绍"><a href="#接口介绍" class="headerlink" title="接口介绍"></a>接口介绍</h3><p>在程序开发中，经常需要遍历集合中的所有元素。针对这种需求，JDK专门提供了一个接口<code>java.util.Iterator</code>。<code>Iterator</code>接口也是Java集合中的一员，但它与<code>Collection</code>、<code>Map</code>接口有所不同，<code>Collection</code>接口与<code>Map</code>接口主要用于存储元素，而<code>Iterator</code>主要用于迭代访问（即遍历）<code>Collection</code>中的元素，因此<code>Iterator</code>对象也被称为迭代器。</p><p>想要遍历Collection集合，那么就要获取该集合迭代器完成迭代操作，下面介绍一下获取迭代器的方法：</p><ul><li><code>public Iterator iterator()</code>: 获取集合对应的迭代器，用来遍历集合中的元素的。</li></ul><p>下面介绍一下迭代的概念：</p><ul><li><strong>迭代</strong>：即Collection集合元素的通用获取方式。在取元素之前先要判断集合中有没有元素，如果有，就把这个元素取出来，继续在判断，如果还有就再取出出来。一直把集合中的所有元素全部取出。这种取出方式专业术语称为迭代。</li></ul><h3 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h3><p>boolean    hasNext()：Returns true if the iteration has more elements.<br>E    next()：Returns the next element in the iteration.</p><p>Iterator是一个接口，我们无法直接使用，需要使用Iterator的实现类来创建对象使用。但是获取实现类的方法比较特殊，我们可以利用Collection接口中的interator方法的返回值来创建一个Iterator接口的实现类对象。</p><h3 id="迭代器的使用步骤"><a href="#迭代器的使用步骤" class="headerlink" title="迭代器的使用步骤"></a>迭代器的使用步骤</h3><p>1、使用集合中的方法iterator()获取迭代器的实现类对象，使用Iterator接口接收（多态）；(Iterator也是有泛型的，集合是什么泛型，Iterator就是什么泛型)</p><p>2、使用Iterator接口中的方法hasNext判断集合中是否还有下一个元素；<br>3、使用Iterator接口中的方法next取出集合中的下一个元素</p><p>当没有下一个元素,执行next方法会报NoSuchElementException</p><h3 id="代码演示-1"><a href="#代码演示-1" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.shenzc.java.demo06;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"><span class="keyword">import</span> java.util.Iterator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestIterator</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//用多态创建一个Collection对象</span></span><br><span class="line">        Collection&lt;String&gt; coll = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="comment">//向集合中添加一些元素，可以使用Collection的add方法</span></span><br><span class="line">        coll.add(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">        coll.add(<span class="string">&quot;李四&quot;</span>);</span><br><span class="line">        coll.add(<span class="string">&quot;王五&quot;</span>);</span><br><span class="line">        coll.add(<span class="string">&quot;赵六&quot;</span>);</span><br><span class="line">        coll.add(<span class="string">&quot;田七&quot;</span>);</span><br><span class="line">        <span class="comment">//用Collection接口中的iterator()方法创建一个Iterator接口的实现类对象</span></span><br><span class="line">        <span class="comment">//迭代器的泛型与Collection的泛型一致</span></span><br><span class="line">        Iterator&lt;String&gt; iterator = coll.iterator();</span><br><span class="line">        <span class="comment">//用Iterator接口中的hasNext方法判断集合中是否还有下一个元素，再用next方法获取下一个元素</span></span><br><span class="line">        <span class="keyword">while</span>(iterator.hasNext())&#123;</span><br><span class="line">            System.out.println(iterator.next());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="增强for循环"><a href="#增强for循环" class="headerlink" title="增强for循环"></a>增强for循环</h2><p>增强for循环(也称for each循环)是<strong>JDK1.5</strong>以后出来的一个高级for循环，专门用来遍历数组和集合的。它的内部原理其实是个Iterator迭代器，所以在遍历的过程中，<strong>不能对集合中的元素进行增删操作</strong>。也叫for-each循环</p><h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><p>for(数据类型 变量名 : 数组名/集合名){</p><p>//其他操作</p><p>}</p><h3 id="代码演示-2"><a href="#代码演示-2" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.shenzc.java.demo07;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestForEach</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//定义一个整形数组</span></span><br><span class="line">        <span class="keyword">int</span>[] arr1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;;</span><br><span class="line">        <span class="comment">//利用增强for循环遍历数组</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i : arr1)&#123;</span><br><span class="line">            System.out.print(i + <span class="string">&quot; &quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println();</span><br><span class="line">        <span class="comment">//定义一个字符串数组</span></span><br><span class="line">        String[] arr2 = &#123;<span class="string">&quot;hello&quot;</span>,<span class="string">&quot;java&quot;</span>&#125;;</span><br><span class="line">        <span class="comment">//用增强for循环遍历</span></span><br><span class="line">        <span class="keyword">for</span>(String s : arr2)&#123;</span><br><span class="line">            System.out.print(s + <span class="string">&quot; &quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/bu2cheng/picpic/imgs/image-20200713102012312.png"></p><h1 id="泛型"><a href="#泛型" class="headerlink" title="泛型"></a>泛型</h1><h2 id="泛型概述"><a href="#泛型概述" class="headerlink" title="泛型概述"></a>泛型概述</h2><p><img src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@main/img/2020/10/17/image-20200816213305822.png" alt="泛型"></p><p>在前面学习集合时，我们都知道集合中是可以存放任意对象的，只要把对象存储到集合后，那么这时他们都会被提升成Object类型。当我们在取出每一个对象，并且进行相应的操作，这时必须采用类型转换。</p><p>大家观察下面代码：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericDemo</span> </span>&#123;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">Collection coll = <span class="keyword">new</span> ArrayList();</span><br><span class="line">coll.add(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">coll.add(<span class="string">&quot;itcast&quot;</span>);</span><br><span class="line">coll.add(<span class="number">5</span>);<span class="comment">//由于集合没有做任何限定，任何类型都可以给其中存放</span></span><br><span class="line">Iterator it = coll.iterator();</span><br><span class="line"><span class="keyword">while</span>(it.hasNext())&#123;</span><br><span class="line"><span class="comment">//需要打印每个字符串的长度,就要把迭代出来的对象转成String类型</span></span><br><span class="line">String str = (String) it.next();</span><br><span class="line">System.out.println(str.length());</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>程序在运行时发生了问题<strong>java.lang.ClassCastException</strong>。                                                                                             为什么会发生类型转换异常呢？                                                                                                                                       我们来分析下：由于集合中什么类型的元素都可以存储。导致取出时强转引发运行时 ClassCastException。                                                                                                                                                       怎么来解决这个问题呢？                                                                                                                                                           Collection虽然可以存储各种对象，但实际上通常Collection只存储同一类型对象。例如都是存储字符串对象。因此在JDK5之后，新增了<strong>泛型</strong>(<strong>Generic</strong>)语法，让你在设计API时可以指定类或方法支持泛型，这样我们使用API的时候也变得更为简洁，并得到了编译时期的语法检查。</p><ul><li><strong>泛型</strong>：可以在类或方法中预支地使用未知的类型。</li></ul><blockquote><p>tips:一般在创建对象时，将未知的类型确定具体的类型。当没有指定泛型时，默认类型为Object类型。</p></blockquote><h2 id="使用泛型的好处"><a href="#使用泛型的好处" class="headerlink" title="使用泛型的好处"></a>使用泛型的好处</h2><ul><li>将运行时期的ClassCastException，转移到了编译时期变成了编译失败。</li><li>避免了类型强转的麻烦。</li></ul><p>弊端</p><p>集合只能存取特定类型的数据</p><h2 id="定义和使用含有泛型的类"><a href="#定义和使用含有泛型的类" class="headerlink" title="定义和使用含有泛型的类"></a>定义和使用含有泛型的类</h2><p>修饰符 class 类名&lt;代表泛型的变量&gt; {  }</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyGenericClass</span>&lt;<span class="title">MVP</span>&gt; </span>&#123;</span><br><span class="line"><span class="comment">//没有MVP类型，在这里代表 未知的一种数据类型 未来传递什么就是什么类型</span></span><br><span class="line"><span class="keyword">private</span> MVP mvp;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setMVP</span><span class="params">(MVP mvp)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.mvp = mvp;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> MVP <span class="title">getMVP</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> mvp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="定义和使用含有泛型的方法"><a href="#定义和使用含有泛型的方法" class="headerlink" title="定义和使用含有泛型的方法"></a>定义和使用含有泛型的方法</h2><p>泛型定义在方法的修饰符和返回值之间</p><p>格式：</p><p>修饰符 &lt;泛型&gt; 返回值类型 方法名 （参数列表（使用泛型））{</p><p>}</p><p>含有泛型的方法，在调用方法时确定泛型的类型</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo01;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericMethod</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> &lt;M&gt; <span class="function"><span class="keyword">void</span> <span class="title">method</span><span class="params">(M m)</span></span>&#123;</span><br><span class="line">        System.out.println(m);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        GenericMethod ge = <span class="keyword">new</span> GenericMethod();</span><br><span class="line">        ge.method(<span class="number">4</span>);</span><br><span class="line">        ge.method(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="定义和使用含有泛型的接口"><a href="#定义和使用含有泛型的接口" class="headerlink" title="定义和使用含有泛型的接口"></a>定义和使用含有泛型的接口</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>格式</p><p><code>修饰符 interface 接口名&lt;泛型&gt;&#123;&#125;</code></p><p>例如：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">MyGenericInterface</span>&lt;<span class="title">E</span>&gt;</span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E e)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> E <span class="title">getE</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>1.定义类时确定泛型类型</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo02;</span><br><span class="line"><span class="comment">//在定义类时确定泛型的类型</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericInterfaceImpl1</span> <span class="keyword">implements</span> <span class="title">MyGenericInterface</span>&lt;<span class="title">String</span>&gt;</span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>2.接口是什么泛型，实现类就是什么泛型，在实现类创建对象时确定泛型类型</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo02;</span><br><span class="line"><span class="comment">//接口是什么泛型，实现类就是什么泛型，在实现类创建对象时确定泛型类型</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericInterfaceImpl2</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">MyGenericInterface</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E e)</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo02;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestGenericInterface</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        GenericInterfaceImpl1 ge1 = <span class="keyword">new</span> GenericInterfaceImpl1();</span><br><span class="line">        ge1.add(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">        GenericInterfaceImpl2&lt;String&gt; ge2 = <span class="keyword">new</span> GenericInterfaceImpl2&lt;&gt;();</span><br><span class="line">        ge2.add(<span class="string">&quot;CDD&quot;</span>);</span><br><span class="line">        GenericInterfaceImpl2&lt;Integer&gt; ge3 = <span class="keyword">new</span> GenericInterfaceImpl2&lt;&gt;();</span><br><span class="line">        ge3.add(<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="泛型的通配符"><a href="#泛型的通配符" class="headerlink" title="泛型的通配符"></a>泛型的通配符</h2><p>当使用泛型类或者接口时，<strong>传递的数据</strong>中，泛型类型不确定，可以通过通配符&lt;?&gt;表示。但是一旦使用泛型的通配符后，只能使用Object类中的共性方法，集合中元素自身方法无法使用。</p><h4 id="通配符基本使用"><a href="#通配符基本使用" class="headerlink" title="通配符基本使用"></a>通配符基本使用</h4><p>泛型的通配符:<strong>不知道使用什么类型来接收的时候,此时可以使用?,?表示未知通配符。</strong></p><p>此时只能接受数据,不能往该集合中存储数据。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo03;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Wildcard</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Collection&lt;String&gt; coll1 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        Collection&lt;Integer&gt; coll2 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        method(coll1);</span><br><span class="line">        method(coll2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">method</span><span class="params">(Collection&lt;?&gt; coll)</span></span>&#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="通配符高级使用—-受限泛型"><a href="#通配符高级使用—-受限泛型" class="headerlink" title="通配符高级使用—-受限泛型"></a>通配符高级使用—-受限泛型</h4><p>之前设置泛型的时候，实际上是可以任意设置的，只要是类就可以设置。但是在JAVA的泛型中可以指定一个泛型的<strong>上限</strong>和<strong>下限</strong>。</p><p><strong>泛型的上限</strong>：</p><ul><li><strong>格式</strong>： <code>类型名称 &lt;? extends 类 &gt; 对象名称</code></li><li><strong>意义</strong>： <code>只能接收该类型及其子类</code></li></ul><p><strong>泛型的下限</strong>：</p><ul><li><strong>格式</strong>： <code>类型名称 &lt;? super 类 &gt; 对象名称</code></li><li><strong>意义</strong>： <code>只能接收该类型及其父类型</code></li></ul><p>比如：现已知Object类，String 类，Number类，Integer类，其中Number是Integer的父类</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> space.buercheng.java.demo03;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">LimitedWildcard</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Collection&lt;Integer&gt; list1 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        Collection&lt;String&gt; list2 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        Collection&lt;Number&gt; list3 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        Collection&lt;Object&gt; list4 = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        method1(list1);</span><br><span class="line">        method1(list2);</span><br><span class="line">        method1(list3);</span><br><span class="line">        method1(list4);</span><br><span class="line">        </span><br><span class="line">        method2(list1);</span><br><span class="line">        method2(list2);</span><br><span class="line">        method2(list3);</span><br><span class="line">        method2(list4);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">method1</span><span class="params">(Collection&lt;? extends Number&gt;coll)</span></span>&#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">method2</span><span class="params">(Collection&lt;? <span class="keyword">super</span> Number&gt;coll)</span></span>&#123;&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/bu2cheng/picpic/imgs/20200817005015.png"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java基础 </tag>
+            
+            <tag> 后端 </tag>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> Java集合 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -405,18 +530,24 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
-          <category> 笔记 </category>
+          <category> Java </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java基础 </tag>
+            <tag> Java基础 </tag>
             
-            <tag> java笔记 </tag>
+            <tag> 后端 </tag>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> Lambda </tag>
             
         </tags>
       
@@ -449,6 +580,8 @@
             
             <tag> vercel </tag>
             
+            <tag> 教程 </tag>
+            
         </tags>
       
     </entry>
@@ -465,24 +598,20 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
           <category> 数据库 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java基础 </tag>
+            <tag> 后端 </tag>
             
-            <tag> java笔记 </tag>
+            <tag> 数据库 </tag>
             
-            <tag> MySQL </tag>
-            
-            <tag> 数据库基础 </tag>
+            <tag> 数据库设计 </tag>
             
         </tags>
       
@@ -500,24 +629,22 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 计算机 </category>
           
           <category> 数据库 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java基础 </tag>
-            
-            <tag> java笔记 </tag>
-            
             <tag> MySQL </tag>
             
-            <tag> 数据库基础 </tag>
+            <tag> 后端 </tag>
+            
+            <tag> 数据库 </tag>
+            
+            <tag> MySQL基础知识 </tag>
             
         </tags>
       

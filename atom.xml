@@ -6,7 +6,7 @@
   <link href="https://blog.buercheng.space/atom.xml" rel="self"/>
   
   <link href="https://blog.buercheng.space/"/>
-  <updated>2022-10-05T14:43:04.755Z</updated>
+  <updated>2022-10-07T02:43:30.396Z</updated>
   <id>https://blog.buercheng.space/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>calculus-sc1801</title>
+    <link href="https://blog.buercheng.space/posts/2478547538/"/>
+    <id>https://blog.buercheng.space/posts/2478547538/</id>
+    <published>2022-10-07T02:20:21.000Z</published>
+    <updated>2022-10-07T02:43:30.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;h1 id=&quot;课程大纲&quot;&gt;&lt;a href=&quot;#课程大纲&quot; class=&quot;headerlink&quot; title=&quot;课程大纲&quot;&gt;&lt;/a&gt;课程大纲&lt;/h1&gt;&lt;h2 id=&quot;介绍&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.buercheng.space/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数学" scheme="https://blog.buercheng.space/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="MIT" scheme="https://blog.buercheng.space/tags/MIT/"/>
+    
+    <category term="calculus" scheme="https://blog.buercheng.space/tags/calculus/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小沈同学的随笔日记</title>
     <link href="https://blog.buercheng.space/posts/2168249802/"/>
     <id>https://blog.buercheng.space/posts/2168249802/</id>
     <published>2022-10-03T22:07:10.000Z</published>
-    <updated>2022-10-05T14:43:04.755Z</updated>
+    <updated>2022-10-07T03:32:59.172Z</updated>
     
     
       
@@ -39,8 +70,6 @@
     
     <category term="日记" scheme="https://blog.buercheng.space/tags/%E6%97%A5%E8%AE%B0/"/>
     
-    <category term="随想" scheme="https://blog.buercheng.space/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="生活" scheme="https://blog.buercheng.space/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
@@ -50,7 +79,7 @@
     <link href="https://blog.buercheng.space/posts/1754453532/"/>
     <id>https://blog.buercheng.space/posts/1754453532/</id>
     <published>2022-04-11T02:58:35.000Z</published>
-    <updated>2022-10-03T22:21:06.137Z</updated>
+    <updated>2022-10-07T03:01:12.708Z</updated>
     
     
       
@@ -63,6 +92,14 @@
     
     
     
+    <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://blog.buercheng.space/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="https://blog.buercheng.space/tags/Windows/"/>
+    
+    <category term="自动任务" scheme="https://blog.buercheng.space/tags/%E8%87%AA%E5%8A%A8%E4%BB%BB%E5%8A%A1/"/>
     
   </entry>
   
@@ -71,7 +108,7 @@
     <link href="https://blog.buercheng.space/posts/3306631997/"/>
     <id>https://blog.buercheng.space/posts/3306631997/</id>
     <published>2021-12-08T03:25:31.000Z</published>
-    <updated>2021-12-08T05:17:42.251Z</updated>
+    <updated>2022-10-07T03:29:21.293Z</updated>
     
     
       
@@ -86,6 +123,14 @@
     
     
     
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="汇编" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%B1%87%E7%BC%96/"/>
+    
+    
+    <category term="编程语言" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="汇编" scheme="https://blog.buercheng.space/tags/%E6%B1%87%E7%BC%96/"/>
     
   </entry>
   
@@ -94,7 +139,7 @@
     <link href="https://blog.buercheng.space/posts/1760471615/"/>
     <id>https://blog.buercheng.space/posts/1760471615/</id>
     <published>2021-10-26T14:19:14.000Z</published>
-    <updated>2021-10-26T14:30:29.088Z</updated>
+    <updated>2022-10-07T03:10:59.475Z</updated>
     
     
       
@@ -107,6 +152,16 @@
     
     
     
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="其它编程语言" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%85%B6%E5%AE%83%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="编程语言" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="数学" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="Wolfram" scheme="https://blog.buercheng.space/tags/Wolfram/"/>
     
   </entry>
   
@@ -115,7 +170,7 @@
     <link href="https://blog.buercheng.space/posts/1865743498/"/>
     <id>https://blog.buercheng.space/posts/1865743498/</id>
     <published>2021-04-26T15:05:08.000Z</published>
-    <updated>2022-03-02T03:01:48.619Z</updated>
+    <updated>2022-10-07T03:13:55.637Z</updated>
     
     
       
@@ -128,12 +183,18 @@
     
     
     
-    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
     <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
     
-    <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    <category term="后端" scheme="https://blog.buercheng.space/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="数据库" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL常用函数" scheme="https://blog.buercheng.space/tags/MySQL%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
@@ -142,7 +203,7 @@
     <link href="https://blog.buercheng.space/posts/3742615103/"/>
     <id>https://blog.buercheng.space/posts/3742615103/</id>
     <published>2021-03-04T04:06:53.000Z</published>
-    <updated>2021-03-04T15:50:01.561Z</updated>
+    <updated>2022-10-07T03:13:26.378Z</updated>
     
     
       
@@ -155,14 +216,20 @@
     
     
     
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="笔记" scheme="https://blog.buercheng.space/categories/java/%E7%AC%94%E8%AE%B0/"/>
+    <category term="Java" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Java/"/>
     
     
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
+    <category term="Java基础" scheme="https://blog.buercheng.space/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
+    <category term="后端" scheme="https://blog.buercheng.space/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="编程语言" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="Java" scheme="https://blog.buercheng.space/tags/Java/"/>
+    
+    <category term="Java常用类" scheme="https://blog.buercheng.space/tags/Java%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
     
   </entry>
   
@@ -171,7 +238,7 @@
     <link href="https://blog.buercheng.space/posts/4276076626/"/>
     <id>https://blog.buercheng.space/posts/4276076626/</id>
     <published>2021-01-20T02:59:14.000Z</published>
-    <updated>2021-01-20T12:18:13.728Z</updated>
+    <updated>2022-10-07T02:56:49.840Z</updated>
     
     
       
@@ -184,8 +251,14 @@
     
     
     
+    <category term="学习" scheme="https://blog.buercheng.space/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="文档处理" scheme="https://blog.buercheng.space/categories/%E5%AD%A6%E4%B9%A0/%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86/"/>
+    
     
     <category term="LaTeX" scheme="https://blog.buercheng.space/tags/LaTeX/"/>
+    
+    <category term="文档格式" scheme="https://blog.buercheng.space/tags/%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F/"/>
     
   </entry>
   
@@ -194,7 +267,7 @@
     <link href="https://blog.buercheng.space/posts/2986382156/"/>
     <id>https://blog.buercheng.space/posts/2986382156/</id>
     <published>2021-01-07T05:19:33.000Z</published>
-    <updated>2021-01-07T05:42:39.092Z</updated>
+    <updated>2022-10-07T03:36:19.687Z</updated>
     
     
       
@@ -210,8 +283,12 @@
     
     <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
     
+    <category term="下载" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/"/>
+    
     
     <category term="小鹅通" scheme="https://blog.buercheng.space/tags/%E5%B0%8F%E9%B9%85%E9%80%9A/"/>
+    
+    <category term="教程" scheme="https://blog.buercheng.space/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -220,7 +297,7 @@
     <link href="https://blog.buercheng.space/posts/1503359168/"/>
     <id>https://blog.buercheng.space/posts/1503359168/</id>
     <published>2020-12-14T10:35:36.000Z</published>
-    <updated>2020-12-14T11:01:00.612Z</updated>
+    <updated>2022-10-07T02:52:30.898Z</updated>
     
     
       
@@ -233,14 +310,14 @@
     
     
     
-    <category term="CSS" scheme="https://blog.buercheng.space/categories/CSS/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="前端" scheme="https://blog.buercheng.space/categories/CSS/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%89%8D%E7%AB%AF/"/>
     
-    
-    <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
     
     <category term="CSS" scheme="https://blog.buercheng.space/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://blog.buercheng.space/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -249,7 +326,7 @@
     <link href="https://blog.buercheng.space/posts/1692463639/"/>
     <id>https://blog.buercheng.space/posts/1692463639/</id>
     <published>2020-11-07T16:29:28.000Z</published>
-    <updated>2020-11-07T16:42:49.699Z</updated>
+    <updated>2022-10-07T03:14:22.577Z</updated>
     
     
       
@@ -262,18 +339,16 @@
     
     
     
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
+    <category term="TCP" scheme="https://blog.buercheng.space/tags/TCP/"/>
     
-    <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
+    <category term="套接字" scheme="https://blog.buercheng.space/tags/%E5%A5%97%E6%8E%A5%E5%AD%97/"/>
     
   </entry>
   
@@ -282,7 +357,7 @@
     <link href="https://blog.buercheng.space/posts/3779978381/"/>
     <id>https://blog.buercheng.space/posts/3779978381/</id>
     <published>2020-11-06T14:23:53.000Z</published>
-    <updated>2020-11-14T13:01:06.732Z</updated>
+    <updated>2022-10-07T02:52:17.505Z</updated>
     
     
       
@@ -295,14 +370,14 @@
     
     
     
-    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
+    <category term="前端" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%89%8D%E7%AB%AF/"/>
     
-    
-    <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
     
     <category term="HTML" scheme="https://blog.buercheng.space/tags/HTML/"/>
+    
+    <category term="前端" scheme="https://blog.buercheng.space/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -311,7 +386,7 @@
     <link href="https://blog.buercheng.space/posts/4210682641/"/>
     <id>https://blog.buercheng.space/posts/4210682641/</id>
     <published>2020-10-31T07:46:24.000Z</published>
-    <updated>2020-11-03T06:26:22.387Z</updated>
+    <updated>2022-10-07T03:30:21.651Z</updated>
     
     
       
@@ -324,16 +399,14 @@
     
     
     
-    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
+    <category term="套接字" scheme="https://blog.buercheng.space/tags/%E5%A5%97%E6%8E%A5%E5%AD%97/"/>
     
   </entry>
   
@@ -342,7 +415,7 @@
     <link href="https://blog.buercheng.space/posts/2434046563/"/>
     <id>https://blog.buercheng.space/posts/2434046563/</id>
     <published>2020-10-28T17:11:17.000Z</published>
-    <updated>2020-10-28T17:26:25.913Z</updated>
+    <updated>2022-10-07T03:35:02.432Z</updated>
     
     
       
@@ -355,16 +428,14 @@
     
     
     
-    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="Java Web" scheme="https://blog.buercheng.space/categories/Java-Web/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
     <category term="网络基础" scheme="https://blog.buercheng.space/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="JAVA SOCKET" scheme="https://blog.buercheng.space/tags/JAVA-SOCKET/"/>
+    <category term="计算机网络" scheme="https://blog.buercheng.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -373,7 +444,7 @@
     <link href="https://blog.buercheng.space/posts/21945543/"/>
     <id>https://blog.buercheng.space/posts/21945543/</id>
     <published>2020-10-25T17:27:42.000Z</published>
-    <updated>2020-10-26T09:06:29.566Z</updated>
+    <updated>2022-10-07T03:33:09.240Z</updated>
     
     
       
@@ -386,10 +457,14 @@
     
     
     
-    <category term="日志" scheme="https://blog.buercheng.space/categories/%E6%97%A5%E5%BF%97/"/>
+    <category term="生活" scheme="https://blog.buercheng.space/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="感悟" scheme="https://blog.buercheng.space/categories/%E7%94%9F%E6%B4%BB/%E6%84%9F%E6%82%9F/"/>
     
     
     <category term="生活" scheme="https://blog.buercheng.space/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="感悟" scheme="https://blog.buercheng.space/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
@@ -411,18 +486,20 @@
     
     
     
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="教程" scheme="https://blog.buercheng.space/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="JAVA" scheme="https://blog.buercheng.space/categories/JAVA/"/>
     
-    <category term="IDEA" scheme="https://blog.buercheng.space/categories/IDEA/"/>
-    
-    <category term="Gradle" scheme="https://blog.buercheng.space/categories/Gradle/"/>
-    
-    
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
     
     <category term="编译错误" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF/"/>
+    
+    <category term="IDEA" scheme="https://blog.buercheng.space/tags/IDEA/"/>
+    
+    <category term="GRADLE" scheme="https://blog.buercheng.space/tags/GRADLE/"/>
+    
+    <category term="Java" scheme="https://blog.buercheng.space/tags/Java/"/>
+    
+    <category term="教程" scheme="https://blog.buercheng.space/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -431,7 +508,7 @@
     <link href="https://blog.buercheng.space/posts/3546711884/"/>
     <id>https://blog.buercheng.space/posts/3546711884/</id>
     <published>2020-10-17T00:18:31.000Z</published>
-    <updated>2020-10-25T17:11:44.137Z</updated>
+    <updated>2022-10-07T03:31:22.856Z</updated>
     
     
       
@@ -444,6 +521,20 @@
     
     
     
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="Java" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Java/"/>
+    
+    
+    <category term="Java基础" scheme="https://blog.buercheng.space/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="后端" scheme="https://blog.buercheng.space/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="编程语言" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="Java" scheme="https://blog.buercheng.space/tags/Java/"/>
+    
+    <category term="Java集合" scheme="https://blog.buercheng.space/tags/Java%E9%9B%86%E5%90%88/"/>
     
   </entry>
   
@@ -459,14 +550,20 @@
     
     
     
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="笔记" scheme="https://blog.buercheng.space/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="Java" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Java/"/>
     
     
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
+    <category term="Java基础" scheme="https://blog.buercheng.space/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
+    <category term="后端" scheme="https://blog.buercheng.space/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="编程语言" scheme="https://blog.buercheng.space/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="Java" scheme="https://blog.buercheng.space/tags/Java/"/>
+    
+    <category term="Lambda" scheme="https://blog.buercheng.space/tags/Lambda/"/>
     
   </entry>
   
@@ -475,7 +572,7 @@
     <link href="https://blog.buercheng.space/posts/776259585/"/>
     <id>https://blog.buercheng.space/posts/776259585/</id>
     <published>2020-10-13T09:58:03.000Z</published>
-    <updated>2020-10-14T15:28:28.412Z</updated>
+    <updated>2022-10-07T03:01:59.444Z</updated>
     
     
     <summary type="html">阅读全文</summary>
@@ -493,6 +590,8 @@
     
     <category term="vercel" scheme="https://blog.buercheng.space/tags/vercel/"/>
     
+    <category term="教程" scheme="https://blog.buercheng.space/tags/%E6%95%99%E7%A8%8B/"/>
+    
   </entry>
   
   <entry>
@@ -500,56 +599,23 @@
     <link href="https://blog.buercheng.space/posts/2215875518/"/>
     <id>https://blog.buercheng.space/posts/2215875518/</id>
     <published>2020-10-12T09:41:48.000Z</published>
-    <updated>2020-10-25T17:12:03.582Z</updated>
+    <updated>2022-10-07T03:33:57.561Z</updated>
     
     
     <summary type="html">阅读全文</summary>
     
     
     
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
+    <category term="计算机" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="笔记" scheme="https://blog.buercheng.space/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
+    <category term="后端" scheme="https://blog.buercheng.space/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
+    <category term="数据库" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
-    <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
-    
-    <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL基础知识</title>
-    <link href="https://blog.buercheng.space/posts/2640443603/"/>
-    <id>https://blog.buercheng.space/posts/2640443603/</id>
-    <published>2020-10-11T17:12:25.000Z</published>
-    <updated>2021-04-24T15:18:38.553Z</updated>
-    
-    
-    <summary type="html">阅读全文</summary>
-    
-    
-    
-    <category term="java" scheme="https://blog.buercheng.space/categories/java/"/>
-    
-    <category term="数据库" scheme="https://blog.buercheng.space/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="笔记" scheme="https://blog.buercheng.space/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="java基础" scheme="https://blog.buercheng.space/tags/java%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="java笔记" scheme="https://blog.buercheng.space/tags/java%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="MySQL" scheme="https://blog.buercheng.space/tags/MySQL/"/>
-    
-    <category term="数据库基础" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    <category term="数据库设计" scheme="https://blog.buercheng.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
