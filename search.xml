@@ -42,6 +42,8 @@
       
       <categories>
           
+          <category> 生活 </category>
+          
           <category> 日记 </category>
           
       </categories>
@@ -49,9 +51,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
             
         </tags>
       
@@ -167,11 +169,11 @@
       
         <tags>
             
-            <tag> MySQL </tag>
-            
             <tag> 后端 </tag>
             
             <tag> 数据库 </tag>
+            
+            <tag> MySQL </tag>
             
             <tag> MySQL常用函数 </tag>
             
@@ -200,13 +202,13 @@
       
         <tags>
             
-            <tag> Java基础 </tag>
+            <tag> Java </tag>
             
             <tag> 后端 </tag>
             
             <tag> 编程语言 </tag>
             
-            <tag> Java </tag>
+            <tag> Java基础 </tag>
             
             <tag> Java常用类 </tag>
             
@@ -235,9 +237,9 @@
       
         <tags>
             
-            <tag> LaTeX </tag>
-            
             <tag> 文档格式 </tag>
+            
+            <tag> LaTeX </tag>
             
         </tags>
       
@@ -264,9 +266,9 @@
       
         <tags>
             
-            <tag> 小鹅通 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 小鹅通 </tag>
             
         </tags>
       
@@ -293,9 +295,9 @@
       
         <tags>
             
-            <tag> CSS </tag>
-            
             <tag> 前端 </tag>
+            
+            <tag> CSS </tag>
             
         </tags>
       
@@ -353,9 +355,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 前端 </tag>
+            
+            <tag> HTML </tag>
             
         </tags>
       
@@ -411,9 +413,9 @@
       
         <tags>
             
-            <tag> 网络基础 </tag>
-            
             <tag> 计算机网络 </tag>
+            
+            <tag> 网络基础 </tag>
             
         </tags>
       
@@ -462,22 +464,22 @@
           
           <category> 计算机 </category>
           
-          <category> JAVA </category>
+          <category> Java </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 编译错误 </tag>
+            <tag> 教程 </tag>
+            
+            <tag> Java </tag>
             
             <tag> IDEA </tag>
             
             <tag> GRADLE </tag>
             
-            <tag> Java </tag>
-            
-            <tag> 教程 </tag>
+            <tag> 编译错误 </tag>
             
         </tags>
       
@@ -504,13 +506,13 @@
       
         <tags>
             
-            <tag> Java基础 </tag>
+            <tag> Java </tag>
             
             <tag> 后端 </tag>
             
             <tag> 编程语言 </tag>
             
-            <tag> Java </tag>
+            <tag> Java基础 </tag>
             
             <tag> Java集合 </tag>
             
@@ -539,13 +541,13 @@
       
         <tags>
             
-            <tag> Java基础 </tag>
+            <tag> Java </tag>
             
             <tag> 后端 </tag>
             
             <tag> 编程语言 </tag>
             
-            <tag> Java </tag>
+            <tag> Java基础 </tag>
             
             <tag> Lambda </tag>
             
@@ -572,15 +574,15 @@
       
         <tags>
             
-            <tag> github </tag>
+            <tag> 教程 </tag>
             
-            <tag> hexo </tag>
+            <tag> github </tag>
             
             <tag> 博客 </tag>
             
-            <tag> vercel </tag>
+            <tag> hexo </tag>
             
-            <tag> 教程 </tag>
+            <tag> vercel </tag>
             
         </tags>
       
@@ -638,11 +640,11 @@
       
         <tags>
             
-            <tag> MySQL </tag>
-            
             <tag> 后端 </tag>
             
             <tag> 数据库 </tag>
+            
+            <tag> MySQL </tag>
             
             <tag> MySQL基础知识 </tag>
             
@@ -698,9 +700,9 @@
             
             <tag> github </tag>
             
-            <tag> hexo </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
