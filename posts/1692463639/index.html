@@ -1,0 +1,382 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TCP套接字 | Buercheng's Space</title><meta name="keywords" content="网络基础,java基础,JAVA SOCKET"><meta name="author" content="不二承"><meta name="copyright" content="不二承"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="referrer" content="no-referrer"><meta name="description" content="概述Java为TCP通信提供了两个类： java.net.Socket和java.net.ServerSocket。一个Socket对象代表一个TCP连接中的一端。一个TCP连接是一个抽象的双向信道，他的两端由IP地址和端口号来进行识别。要进行TCP通信，TCP连接要进行一系列的活动：首先，客户端TCP向服务端TCP发送请求，要求建立TCP连接；服务端存在一个ServerSocket的实例，用来监">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TCP套接字">
+<meta property="og:url" content="https://blog.buercheng.space/posts/1692463639/index.html">
+<meta property="og:site_name" content="Buercheng&#39;s Space">
+<meta property="og:description" content="概述Java为TCP通信提供了两个类： java.net.Socket和java.net.ServerSocket。一个Socket对象代表一个TCP连接中的一端。一个TCP连接是一个抽象的双向信道，他的两端由IP地址和端口号来进行识别。要进行TCP通信，TCP连接要进行一系列的活动：首先，客户端TCP向服务端TCP发送请求，要求建立TCP连接；服务端存在一个ServerSocket的实例，用来监">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Id_1f0835cb-f3a7-4c80-8670-8889b0599d4d.png">
+<meta property="article:published_time" content="2020-11-07T16:29:28.000Z">
+<meta property="article:modified_time" content="2024-10-26T13:07:34.543Z">
+<meta property="article:author" content="不二承">
+<meta property="article:tag" content="网络基础">
+<meta property="article:tag" content="java基础">
+<meta property="article:tag" content="JAVA SOCKET">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Id_1f0835cb-f3a7-4c80-8670-8889b0599d4d.png"><link rel="shortcut icon" href="/pics/icon.webp"><link rel="canonical" href="https://blog.buercheng.space/posts/1692463639/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":60,"position":"top","messagePrev":"这篇文章已经","messageNext":"天没有更新了，内容可能已经过期了"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 不二承","link":"链接: ","source":"来源: Buercheng's Space","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'TCP套接字',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-10-26 21:07:34'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Buercheng's Space" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/pics/avatar.jpg" onerror="onerror=null;src='/img/404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-icons"></i><span> 影音书籍</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book-open"></i><span> 阅读</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-quote-right"></i><span> 碎碎念</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo"><i class="fa-fw fas fa-comment-alt"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Buercheng's Space</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-icons"></i><span> 影音书籍</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book-open"></i><span> 阅读</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-quote-right"></i><span> 碎碎念</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo"><i class="fa-fw fas fa-comment-alt"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">TCP套接字<a class="post-edit-link" href="https://github.com/zerohk/hexo/edit/hexo/source/_posts/TCP套接字.md" rel="external nofollow noreferrer" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-07T16:29:28.000Z" title="发表于 2020-11-08 00:29:28">2020-11-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-10-26T13:07:34.543Z" title="更新于 2024-10-26 21:07:34">2024-10-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/java/">java</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java-Web/">Java Web</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>14分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="TCP套接字"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/1692463639/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/posts/1692463639/" itemprop="commentCount"></span></a></span></div></div></div><article class="post-content" id="article-container"><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>Java为TCP通信提供了两个类：<code> java.net.Socket</code>和<code>java.net.ServerSocket</code>。一个Socket对象代表一个TCP连接中的一端。一个TCP连接是一个抽象的双向信道，他的两端由IP地址和端口号来进行识别。要进行TCP通信，TCP连接要进行一系列的活动：首先，客户端TCP向服务端TCP发送请求，要求建立TCP连接；服务端存在一个ServerSocket的实例，用来监听来自客户端的所有TCP连接的请求，并且对每一个进入的连接创建一个Socket对象来处理其请求。因此，客户端只需要使用Socket对象即可，服务端则需要处理ServerSocket和Socket两者的对象。</p>
+<h1 id="创建一个TCP客户端"><a href="#创建一个TCP客户端" class="headerlink" title="创建一个TCP客户端"></a>创建一个TCP客户端</h1><p>客户端与一个积极等待连接的服务端初始化通信，TCP客户端一般要经过以下几个步骤：</p>
+<ol>
+<li>构造一个Socket类的实例：构造器与指定的远程主机和端口建立一个TCP连接。</li>
+<li>通过Socket的IO流进行通信：建立连接后的Socket实例包含一个InputStream和OutputStream，这两个IO流可以像其他IO流一样使用。</li>
+<li>使用Socket的close()方法关闭连接。</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.OutputStream;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.net.SocketException;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TCPEchoClient</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (args.length &lt; <span class="number">2</span> || args.length &gt; <span class="number">3</span>) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="string">&quot;Parameter(s): &lt;Server&gt; &lt;Word&gt; [&lt;Port&gt;]&quot;</span>);</span><br><span class="line">            <span class="comment">// 如果参数不是：服务器（ip或域名） 描述信息 端口号（可选）的格式，则抛出非法参数异常</span></span><br><span class="line">        &#125;</span><br><span class="line">        String server = args[<span class="number">0</span>]; <span class="comment">// 服务器名或IP地址</span></span><br><span class="line">        <span class="comment">//利用String类的getBytes()方法将描述信息转为byte数组</span></span><br><span class="line">        <span class="keyword">byte</span>[] data = args[<span class="number">1</span>].getBytes();</span><br><span class="line">        <span class="comment">//如果输入的参数包含端口号就将其赋值给port，否则默认port为7</span></span><br><span class="line">        <span class="keyword">int</span> servPort = (args.length == <span class="number">3</span>) ? Integer.parseInt(args[<span class="number">2</span>]) : <span class="number">7</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//创建连接指定服务器端口的套接字</span></span><br><span class="line">        Socket socket = <span class="keyword">new</span> Socket(server, servPort);</span><br><span class="line">        System.out.println(<span class="string">&quot;Connected to server...sending echo string&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 每一个被连接的Socket实例都有一个InputStream和一个OutputStream，它们可以向其他Java I/O流一样使用</span></span><br><span class="line">        InputStream in = socket.getInputStream();</span><br><span class="line">        OutputStream out = socket.getOutputStream();</span><br><span class="line"></span><br><span class="line">        out.write(data); <span class="comment">//发送描述信息给服务器</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 从服务器接收相同的描述信息</span></span><br><span class="line">        <span class="keyword">int</span> totalBytesRcvd = <span class="number">0</span>;<span class="comment">// 当前接收到的字节总数</span></span><br><span class="line">        <span class="keyword">int</span> bytesRcvd;<span class="comment">// 最后一次read接收到的字节数</span></span><br><span class="line">        <span class="keyword">while</span> (totalBytesRcvd &lt; data.length) &#123;</span><br><span class="line">            <span class="keyword">if</span> ((bytesRcvd = in.read(data, totalBytesRcvd, data.length) - totalBytesRcvd) == -<span class="number">1</span>) &#123;</span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> SocketException(<span class="string">&quot;Connection closed prematurely&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            totalBytesRcvd += bytesRcvd;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">&quot;Received:&quot;</span> + <span class="keyword">new</span> String(data));</span><br><span class="line"></span><br><span class="line">        socket.close();<span class="comment">// 关闭连接</span></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="Socket方法详解"><a href="#Socket方法详解" class="headerlink" title="Socket方法详解"></a>Socket方法详解</h1><h2 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h2><ul>
+<li><code>public Socket()</code>：创建一个未连接的Socket对象。如果该应用指定了客户端TCP socket的实现，则调用该实现类的<code>createSocketImpl</code>方法来创建该Socket对象。如果没有则使用系统默认的socket实现类来创建该对象。在进行通信之前，必须通过connect()方法显式的建立连接。</li>
+</ul>
+<hr>
+<ul>
+<li><code>public Socket(String host,int port) throws UnknownHostException,IOException</code>：创建一个流式TCP套接字，并连接到指定主机的指定端口。如果指定主机为null，相当于调用了<code>InetAddress.getByName(null)</code>,也就是说，将地址指定为回环接口。不能确定主机的IP地址时，抛出<code>UnknownHostException</code> ；创建socket时发生IO错误，抛出<code>IOException</code>;端口号不在正确范围内（0~65535）时，抛出<code>IllegalArgumentException</code>。</li>
+</ul>
+<hr>
+<ul>
+<li><code>public Socket(String host,int port,InetAddress localAddr,int localPort) throws IOException</code>：创建一个TCP socket，与给定的主机和端口号相连接，并且也会将socket绑定（<code>bind()</code>）到指定的本地地址和端口。如果指定主机为null，相当于调用了<code>InetAddress.getByName(null)</code>,也就是说，将地址指定为回环接口。如果本地端口号为0，则由系统自动分配一个可用的端口。<code>localAddr</code>为null时，可以是任意本地（anyLocal）地址。创建socket时发生IO错误，抛出<code>IOException</code>;端口号不在正确范围内（0~65535）时，抛出<code>IllegalArgumentException</code>。</li>
+</ul>
+<hr>
+<ul>
+<li><code>public Socket(InetAddress addr,int port) throws IOException</code>：<code>addr</code>为IP地址。创建一个流式TCP socket并将其连接到指定IP地址的指定端口。如果该应用指定了客户端socket的实现，则调用该实现类的<code>createSocketImpl</code>方法来创建该Socket对象。如果没有则使用系统默认的socket实现类来创建该对象。创建socket时发生IO错误，抛出<code>IOException</code>;端口号不在正确范围内（0~65535）时，抛出<code>IllegalArgumentException</code>。<code>addr</code>为null时，抛出 <code>NullPointerException</code>。</li>
+</ul>
+<hr>
+<ul>
+<li><code>public Socket(InetAddress addr,int port,InetAddress localAddr,int localPort)throws IOException</code>：创建一个TCP socket并且与给定的远程地址和远程端口相连接。并且也会将socket绑定（<code>bind()</code>）到指定的本地地址和端口。如果<code>localAddr</code>为null，相当于将地址指定为任意本地地址（ <code>InetAddress.isAnyLocalAddress()</code>）。如果本地端口号为0，则由系统自动分配一个可用的端口。创建socket时发生IO错误，抛出<code>IOException</code>;端口号不在正确范围内（0~65535）时，抛出<code>IllegalArgumentException</code>。<code>addr</code>为null时，抛出 <code>NullPointerException</code>。</li>
+</ul>
+<hr>
+<h2 id="其他常用方法"><a href="#其他常用方法" class="headerlink" title="其他常用方法"></a>其他常用方法</h2><ul>
+<li><code>public void connect(SocketAddress endPoint)throws IOException</code>:将此socket连接到指定服务器。如果在连接过程中发生错误，抛出<code>IOException</code>；如果该socket有一个关联的信道，并且该信道处于非阻塞（non-blocking）状态，则抛出<code>IllegalBlockingModeException</code>;如果 <code>endPoint</code>为null或是不受此socket支持的SocketAddress的子类，则抛出<code>IllegalArgumentException</code>。</li>
+<li><code>public void connect(SocketAddress endPoint,int timeout)throws IOException</code>:将此socket连接到指定服务器，并指定超时值（timeout value，以毫秒为单位）。timeout为0时代表永不超时。连接将会处于阻塞状态，直到连接建立或是发生错误。</li>
+<li><code>InputStream getInputStream()</code>:返回一个输入流给该socket。如果该socket与某一信道相关联，则输入流的操作都将交给此信道。如果该信道处于非阻塞状态，那么该输入流的read操作将会抛出<code>IllegalBlockingModeException</code>。</li>
+<li><code>OutputStream getOutputStream()</code>：返回一个输出流给该socket。</li>
+<li><code>void close()</code>：关闭socket以及其关联的输入输出流。</li>
+<li><code>void shutdownInput()</code>：在输入流一端关闭TCP连接。任意未读数据将会被丢弃，包括socket缓存的数据，运输中的数据以及将来到达的数据。此后任何尝试从此socket读取数据的行为都将抛出异常。</li>
+<li><code>void shutdownOutput()</code>：在输出流一端关闭连接。但此方法会确保已经写入socket输出流的数据已经传输到另一端。</li>
+<li><code>InetAddress getInetAddress()</code>:</li>
+<li><code>int getPort()</code>:</li>
+<li><code>InetAddress getLocalAddress()</code>:</li>
+<li><code>int getLocalPort()</code>:</li>
+<li><code>SocketAddress getRemoteSocketAddress()</code>:</li>
+<li><code>SocketAddress getLocalSocketAddress()</code>:</li>
+</ul>
+<h1 id="SocketAddress抽象类以及InetSocketAddress类"><a href="#SocketAddress抽象类以及InetSocketAddress类" class="headerlink" title="SocketAddress抽象类以及InetSocketAddress类"></a>SocketAddress抽象类以及InetSocketAddress类</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">SocketAddress</span> <span class="keyword">extends</span> <span class="title">Object</span> <span class="keyword">implements</span> <span class="title">Serializable</span></span></span><br></pre></td></tr></table></figure>
+
+<p>这个类位于<code>java.net</code>包下，代表一个无协议的Socket 地址。因为是抽象类，所以需要一个带指定协议的子类来实现：<strong>InetSocketAddress</strong>。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">InetSocketAddress</span> <span class="keyword">extends</span> <span class="title">SocketAddress</span></span></span><br></pre></td></tr></table></figure>
+
+<p>这个类位于<code>java.net</code>包下，这个类实现了SocketAddress类，代表了一个IP类型的Socket地址（IP地址+端口)，也可以是域名+端口的形式。它提供了一个不可变对象，以供socket对象来绑定（binding)、连接(connecting)或返回(return value) 。wildcard指的是一个特定的本地地址，他通常意味着“any”，并且只能用于绑定</p>
+<h2 id="InetSocketAddress方法"><a href="#InetSocketAddress方法" class="headerlink" title="InetSocketAddress方法"></a>InetSocketAddress方法</h2><h3 id="构造方法-1"><a href="#构造方法-1" class="headerlink" title="构造方法"></a>构造方法</h3><ul>
+<li><code>public InetSocketAddress(int port)</code>：创建一个socket地址，它的IP是一个wildcard地址，端口是port参数。</li>
+<li><code>public InetSocketAddress(String hostname, int port)</code>：从给定的域名和端口号创建一个socket address。会尝试把域名解析为IP地址，如果解析失败，会把域名标记为<em>unresolved</em>。端口为0，自动分配。</li>
+<li><code>public InetSocketAddress(InetAddress addr, int port)</code>：从给定的IP地址和端口号创建一个socket address。IP地址为null时，指派wildcard地址。端口为0，自动分配。</li>
+</ul>
+<h3 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h3><ul>
+<li><code>public static InetSocketAddress createUnresolved(String host,   int port)</code>：利用给定的域名和端口号创建一个unresolved socket 地址，不会对域名进行解析，直接将域名标记为<em>unresolved</em>。</li>
+<li><code>public final boolean isUnresolved()</code>：判断地址是否是<em>unresolved</em>。</li>
+<li><code>public final InetAddress getAddress()</code>:获取InetAddress。如果为<em>unresolved</em>则返回null。</li>
+<li><code>int getPort()</code>:获取端口号</li>
+<li><code>String getHostName()</code>:返回域名。如果socket地址是用IP地址创建的，可能会反向域名解析查找域名。</li>
+<li><code>String toString()</code>：返回该InetSocketAddress的字符串形式，调用了InetAddress的toString()方法并通过冒号加上端口号。如果地址是<em>unresolved</em>，那么将会在地址处显示 <code>&lt;unresolved&gt;</code> 。</li>
+</ul>
+<h1 id="创建一个TCP服务端"><a href="#创建一个TCP服务端" class="headerlink" title="创建一个TCP服务端"></a>创建一个TCP服务端</h1><p>TCP服务端的任务是设置另一个通信端点，并且积极的等待来自客户端的连接。典型的服务端创建过程如下：</p>
+<ol>
+<li>指定端口号，构造一个ServerSocket的实例，这个实例监听该端口的所有连接。</li>
+<li>重复执行以下任务：<ol>
+<li>调用ServerSocket对象的accept()方法，获得下一个来自客户端的连接。一旦一个来自客户端的新连接建立完成，accept()方法创建了一个Socket对象并返回；</li>
+<li>通过返回的Socket对象的InputStream和OutputStream通客户端进行通信；</li>
+<li>通信完成后，调用Socket对象的close()方法关闭连接。</li>
+</ol>
+</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.OutputStream;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.net.SocketAddress;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TCPEchoServer</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> BUFFSIZE = <span class="number">32</span>; <span class="comment">// size of receive buffer</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (args.length != <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="string">&quot;Parameter(s): &lt;Port&gt;&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> servPort = Integer.parseInt(args[<span class="number">0</span>]);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//创建一个服务端socket接收客户端的请求</span></span><br><span class="line">        ServerSocket serverSocket = <span class="keyword">new</span> ServerSocket(servPort);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> recvMsgSize;<span class="comment">// 接受的消息的大小</span></span><br><span class="line">        <span class="keyword">byte</span>[] recvBuff = <span class="keyword">new</span> <span class="keyword">byte</span>[BUFFSIZE];<span class="comment">//接收 缓存</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>) &#123; <span class="comment">//一直运行，接收并处理来自客户端的连接</span></span><br><span class="line">            Socket clinSock = serverSocket.accept();<span class="comment">// 接受来自客户端的连接</span></span><br><span class="line">            SocketAddress clientAddress = clinSock.getRemoteSocketAddress(); <span class="comment">// 获取客户端地址</span></span><br><span class="line">            System.out.println(<span class="string">&quot;Handling client at &quot;</span> + clientAddress);</span><br><span class="line"></span><br><span class="line">            InputStream in = clinSock.getInputStream();<span class="comment">//</span></span><br><span class="line">            OutputStream out = clinSock.getOutputStream();<span class="comment">//</span></span><br><span class="line"></span><br><span class="line">            <span class="comment">//一直接收，直到客户端关闭连接，当结果为-1时返回</span></span><br><span class="line">            <span class="keyword">while</span> ((recvMsgSize = in.read(recvBuff)) != -<span class="number">1</span>) &#123;</span><br><span class="line">                out.write(recvBuff,<span class="number">0</span>,recvMsgSize);</span><br><span class="line">            &#125;</span><br><span class="line">            clinSock.close();<span class="comment">//关闭socket，与客户端连接断开</span></span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="ServerSocket方法"><a href="#ServerSocket方法" class="headerlink" title="ServerSocket方法"></a>ServerSocket方法</h1><h2 id="构造方法-2"><a href="#构造方法-2" class="headerlink" title="构造方法"></a>构造方法</h2><ul>
+<li><code>public ServerSocket() throws IOException</code>：创建一个未绑定的server socket；该对象未绑定任何端口，在使用前必须使用bind()方法绑定端口。</li>
+<li><code>public ServerSocket(int port) throws IOException</code>:创建一个与指定端口绑定的server socket。端口号为0，随机指定一个未分派端口，一般是临时端口ephemeral port。指定的端口号可以通过getLocalPort()方法获取。该方法创建的对象将连接队列大小设置为50，当待连接的数量超过50时，会拒绝其连接。</li>
+<li><code>public ServerSocket(int port,int backlog) throws IOException</code>：backlog表示能够请求的连接的最大数量。该方法创建的对象指定了能够连接的数量大小。</li>
+<li><code>public ServerSocket(int port,int backlog,InetAddress bindAddr) throws IOException</code>：bindAddr表示该socket绑定的本地InetAddress。bindAddr参数对多宿主主机（multi-homed host）创建ServerSocket很有用，但只会分配其中一个地址给它。多宿主主机指的是有多个网络接口的主机。</li>
+</ul>
+<h2 id="其他方法-1"><a href="#其他方法-1" class="headerlink" title="其他方法"></a>其他方法</h2><ul>
+<li><code>void bind(SocketAddress endPoint) throws IOException</code>：将此ServerSocket绑定到指定SocketAddress（IP地址加端口号）。如果地址为空，系统会分配一个临时端口和有效的本地地址给这个socket。</li>
+<li><code>void bind(SocketAddress endPoint，int backlog)throws IOException</code>:指定能连接的最大值。</li>
+<li><code>Socket accept()</code>:监听连接到此socket的连接并接受它。这个方法处于阻塞状态，直到一个连接建立。</li>
+<li><code>void close()</code>:关闭此socket。</li>
+<li><code>InetAddress getInetAddress()</code>:返回此server socket 的本地地址。未绑定地址时，返回null。</li>
+<li><code>SocketAddress getLocalSocketAddress()</code>:返回此server socket绑定的本地socket address。未绑定地址时，返回null。</li>
+<li><code>int getLocalPort()</code>:返回此server socket监听的端口，如果尚未监听端口则返回-1。</li>
+</ul>
+<h1 id="输入输出流"><a href="#输入输出流" class="headerlink" title="输入输出流"></a>输入输出流</h1><p>从以上例子可以看出，Java中为TCP套接字提供的基础IO模型是流（stream）的抽象类；一个流就是一串有序的字节序列。Java输入流（input stream）支持读取字节，输出流（output stream）支持写入字节。</p>
+<p>OutputStream是所有输出流的抽象父类。使用OutputStream我们可以write、flush、close。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">OutputStream</span></span></span><br><span class="line"><span class="class"><span class="keyword">extends</span> <span class="title">Object</span></span></span><br><span class="line"><span class="class"><span class="keyword">implements</span> <span class="title">Closeable</span>, <span class="title">Flushable</span> //<span class="title">java</span>.<span class="title">io</span></span></span><br></pre></td></tr></table></figure>
+
+<p>InputStream是所有输入流的抽象父类。使用InputStream我们可以从输入流读取字节，关闭输入流。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">InputStream</span></span></span><br><span class="line"><span class="class"><span class="keyword">extends</span> <span class="title">Object</span></span></span><br><span class="line"><span class="class"><span class="keyword">implements</span> <span class="title">Closeable</span>//<span class="title">java</span>.<span class="title">io</span></span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="OutputStream的方法"><a href="#OutputStream的方法" class="headerlink" title="OutputStream的方法"></a>OutputStream的方法</h2><ul>
+<li><code>abstract void write(int b) throws IOException</code>：将指定字节写入到该输出流。参数b的低八位字节将会写入到输出流，高24位将会被省略。OutputStream的子类必须实现该方法。</li>
+<li><code>void write(byte[] b) throws IOException</code>：将指定字节数组b的b.length个字节写入到输出流。实现效果应该与调用<code>write(b,0,b.length)</code>一致。</li>
+<li><code>void write(byte[] b,int off,int len) throws IOException</code>：将指定字节数组b中从off开始的len个字节写入到输出流。b[off]是第一个写入的字节，b[off+len]是最后一个写入的字节。OutputStream中的这个方法是，每次写入一个字节都调用一次只有一个参数的write(int b)方法，子类应该更好的实现该方法。如果b为null，抛出NullPointerException；如果off为负，或者len为负，或者off+len大于b.length，抛出IndexOutOfBoundException。</li>
+<li><code> void flush() throws IOException</code>：刷新输出流，强制写出所有缓存的字节，如果此输出流的实现已经缓冲了以前写入的任何字节，则调用此方法指示应将这些字节立即写入它们预期的目标。如果此流的预期目标是由基础操作系统提供的一个抽象（如一个文件），则刷新此流只能保证将以前写入到流的字节传递给操作系统进行写入，但不保证能将这些字节实际写入到物理设备（如磁盘驱动器）。<br>  OutputStream 的 flush 方法不执行任何操作。 </li>
+<li><code>void close()throws IOException</code>:关闭输出流并释放占用的系统资源，关闭后的输出流不能执行任何操作也不能被重启。OutputStream的close方法不执行任何操作。</li>
+</ul>
+<h2 id="InputStream的方法"><a href="#InputStream的方法" class="headerlink" title="InputStream的方法"></a>InputStream的方法</h2><ul>
+<li><p><code>abstract int read() throws IOException</code>：从输入流读取下一个数据字节。字节值返回的是一个0-255的int类型。如果到达输入流终点而没有字节可以读取，则返回-1；这个方法处于阻塞状态，直到输入数据是可读取的、检测到输入流的终点或是抛出了异常。</p>
+</li>
+<li><p><code>int read(byte[] b) throws IOException</code>：读取输入流的一系列字节，并将其存储到缓存数组b，读取的字节数以int形式返回。这个方法处于阻塞状态，直到输入数据是可读取的、检测到输入流的终点或是抛出了异常。如果b的长度为零，则没有数据被读取，返回0；否则，至少尝试读取一个字节。如果因为输入流到达了文件的尾部而没有字节可以读取，返回-1；否则至少读取一个字节并存储到b。该方法的实现应该等效于read(b, 0, b.length)。</p>
+</li>
+<li><p><code>int read(byte[] b,int off,int len) throws IOException</code>：至多从输入流读取len个字节存储到byte数组b中，off代表从b中哪个位置开始存储。虽然传入参数是len，但可能实际读取的字节数少于len，并且读取的字节个数以int形式返回。这个方法处于阻塞状态，直到输入数据是可读取的、检测到输入流的终点或是抛出了异常。如果len为0，没有字节被读取，返回0；否则，至少尝试读取一个字节。如果因为输入流到达了文件的尾部而没有字节可以读取，返回-1；否则至少读取一个字节并存储到b。第一个被读取的字节存储到b[off],第二个被读取的数据存储到b[off+1],以此类推。读取的字节数最多为len。</p>
+</li>
+<li><p><code>int available() throws IOException</code>：返回此输入流下一个方法调用可以不受阻塞地从此输入流读取（或跳过）的估计字节数；如果到达输入流末尾，则返回 0。下一个调用可能是同一个线程，也可能是另一个线程。一次读取或跳过此估计数个字节不会受阻塞，但读取或跳过的字节数可能小于该数。</p>
+<p>  注意，有些 InputStream 的实现将返回流中的字节总数，但也有很多实现不会这样做。试图使用此方法的返回值分配缓冲区，以保存此流所有数据的做法是不正确的。</p>
+</li>
+<li><p><code>void close() throws IOException</code>:关闭输入流并释放占用的系统资源。InputStream的close方法不执行任何操作。</p>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noreferrer">不二承</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.buercheng.space/posts/1692463639/">https://blog.buercheng.space/posts/1692463639/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.buercheng.space" target="_blank">Buercheng's Space</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/">网络基础</a><a class="post-meta__tags" href="/tags/java%E5%9F%BA%E7%A1%80/">java基础</a><a class="post-meta__tags" href="/tags/JAVA-SOCKET/">JAVA SOCKET</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Id_1f0835cb-f3a7-4c80-8670-8889b0599d4d.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/1503359168/"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/css_base_cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">CSS基础</div></div></a></div><div class="next-post pull-right"><a href="/posts/3779978381/"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/170427-637363828865101045-16x9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">HTML复习</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/4210682641/" title="基础套接字"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/java-socket-programming.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-10-31</div><div class="title">基础套接字</div></div></a></div><div><a href="/posts/2434046563/" title="网络基础"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/Facebook_TCP_IP_V2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-10-29</div><div class="title">网络基础</div></div></a></div><div><a href="/posts/1503359168/" title="CSS基础"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/css_base_cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-14</div><div class="title">CSS基础</div></div></a></div><div><a href="/posts/3779978381/" title="HTML复习"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/170427-637363828865101045-16x9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-06</div><div class="title">HTML复习</div></div></a></div><div><a href="/posts/3790347158/" title="IDEA构建错误:Gradle:Cause:zip END header not found"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/20201018190550.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-10-18</div><div class="title">IDEA构建错误:Gradle:Cause:zip END header not found</div></div></a></div><div><a href="/posts/3742615103/" title="Java常用类"><img class="cover" src="https://cdn.jsdelivr.net/gh/zerohk/blogpic@pics/img/class_cover.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-03-04</div><div class="title">Java常用类</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="gitalk-container"></div></div><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-text">概述</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AATCP%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="toc-text">创建一个TCP客户端</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Socket%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3"><span class="toc-text">Socket方法详解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-text">构造方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-text">其他常用方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SocketAddress%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%BB%A5%E5%8F%8AInetSocketAddress%E7%B1%BB"><span class="toc-text">SocketAddress抽象类以及InetSocketAddress类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#InetSocketAddress%E6%96%B9%E6%B3%95"><span class="toc-text">InetSocketAddress方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95-1"><span class="toc-text">构造方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95"><span class="toc-text">其他方法</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AATCP%E6%9C%8D%E5%8A%A1%E7%AB%AF"><span class="toc-text">创建一个TCP服务端</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ServerSocket%E6%96%B9%E6%B3%95"><span class="toc-text">ServerSocket方法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95-2"><span class="toc-text">构造方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95-1"><span class="toc-text">其他方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81"><span class="toc-text">输入输出流</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#OutputStream%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-text">OutputStream的方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#InputStream%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-text">InputStream的方法</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 不二承</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'V0ws0os2dGf5MuwX3dnxn0IB-MdYXbMMI',
+      appKey: 'yMIP1AgsfA4VRG8nUjjUjj24',
+      placeholder: '快来留下你的评论吧，小哥哥，小姐姐~',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: true,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+      requiredFields: ["nick,mail"],
+      visitor: 
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk(Object.assign({
+      clientID: 'fc98ddf96f1da7dce9f9',
+      clientSecret: '71cb4c942162e395a3d634f68c7a812da89838e8',
+      repo: 'blog_comment',
+      owner: 'zerohk',
+      admin: ['zerohk'],
+      id: '539576c9fb3227c9192d4427e04cd982',
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: true,
+      updateCountCallback: commentCount
+    },null))
+
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Valine' === 'Gitalk' || !false) {
+  if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = new Waline(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline2-phi.vercel.app',
+      avatar: 'monsterid',
+      avatarCDN: 'https://sdn.geekzu.org/avatar/',
+      path: location.pathname,
+      visitor: true,
+      dark: 'html[data-theme="dark"]'
+    }, null))
+  }
+
+  if (typeof Waline === 'function') initWaline() 
+  else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(initWaline)
+}
+
+if ('Valine' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
